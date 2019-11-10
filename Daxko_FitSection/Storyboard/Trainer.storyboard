@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2rg-cR-YPY">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trainers-->
+        <scene sceneID="RtG-kq-hzu">
+            <objects>
+                <viewController storyboardIdentifier="TrainerVC" id="117-Zr-AHL" customClass="TrainerVC" customModule="Daxko_FitSection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QJf-oz-5rW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="q9a-4g-mGr">
+                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="She-Si-b3u">
+                                    <size key="itemSize" width="354" height="325"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="10" minY="10" maxX="10" maxY="10"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TrainerCollectionViewCell" id="ZRN-df-JlD" customClass="TrainerCollectionViewCell" customModule="Daxko_FitSection" customModuleProvider="target">
+                                        <rect key="frame" x="10" y="10" width="354" height="325"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="s4H-wa-okQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="354" height="325"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fitness_4" translatesAutoresizingMaskIntoConstraints="NO" id="eNE-bb-Ol5">
+                                                    <rect key="frame" x="0.0" y="0.0" width="354" height="310"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="310" id="L3v-IN-lKL"/>
+                                                        <constraint firstAttribute="width" constant="354" id="g9r-aH-ia0"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IhU-zG-DIl">
+                                                    <rect key="frame" x="0.0" y="136.5" width="354" height="37.5"/>
+                                                    <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="IhU-zG-DIl" firstAttribute="centerX" secondItem="eNE-bb-Ol5" secondAttribute="centerX" id="5f5-VJ-Rnf"/>
+                                                <constraint firstAttribute="trailing" secondItem="eNE-bb-Ol5" secondAttribute="trailing" id="7d1-zO-kGi"/>
+                                                <constraint firstItem="eNE-bb-Ol5" firstAttribute="top" secondItem="s4H-wa-okQ" secondAttribute="top" id="HeN-8r-Rqh"/>
+                                                <constraint firstAttribute="bottom" secondItem="eNE-bb-Ol5" secondAttribute="bottom" constant="15" id="Ish-02-uIE"/>
+                                                <constraint firstItem="IhU-zG-DIl" firstAttribute="centerY" secondItem="eNE-bb-Ol5" secondAttribute="centerY" id="JZr-eV-OBG"/>
+                                                <constraint firstItem="IhU-zG-DIl" firstAttribute="leading" secondItem="s4H-wa-okQ" secondAttribute="leading" id="Oni-yJ-TM1"/>
+                                                <constraint firstAttribute="trailing" secondItem="IhU-zG-DIl" secondAttribute="trailing" id="a9c-5i-FXk"/>
+                                                <constraint firstItem="eNE-bb-Ol5" firstAttribute="leading" secondItem="s4H-wa-okQ" secondAttribute="leading" id="cPz-RI-bhs"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="354" height="325"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outlet property="coachImageView" destination="eNE-bb-Ol5" id="06T-hA-axp"/>
+                                            <outlet property="descriptionLabel" destination="IhU-zG-DIl" id="LuN-DH-y1e"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <outlet property="dataSource" destination="117-Zr-AHL" id="Jqs-1c-mMz"/>
+                                    <outlet property="delegate" destination="117-Zr-AHL" id="1AN-PJ-Gds"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q9a-4g-mGr" firstAttribute="top" secondItem="zcq-gW-LKX" secondAttribute="top" id="6ZO-kj-DqU"/>
+                            <constraint firstItem="q9a-4g-mGr" firstAttribute="leading" secondItem="zcq-gW-LKX" secondAttribute="leading" constant="20" id="GO2-Pb-4gc"/>
+                            <constraint firstItem="zcq-gW-LKX" firstAttribute="trailing" secondItem="q9a-4g-mGr" secondAttribute="trailing" constant="20" id="QVF-yi-UDF"/>
+                            <constraint firstItem="q9a-4g-mGr" firstAttribute="bottom" secondItem="zcq-gW-LKX" secondAttribute="bottom" id="hun-rd-s2k"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zcq-gW-LKX"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Trainers" id="TNW-1Q-mNp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8F-MX-qCB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1998.5507246376812" y="285.9375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="SNE-Mb-WtZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2rg-cR-YPY" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Dk8-qi-UrJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="117-Zr-AHL" kind="relationship" relationship="rootViewController" id="iw3-KL-k4R"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9KV-RF-zMG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1332" y="286.50674662668666"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fitness_4" width="1000" height="1500"/>
+    </resources>
+</document>

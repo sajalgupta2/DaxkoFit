@@ -1,0 +1,26 @@
+PODS:
+  - JJFloatingActionButton (2.1.0)
+  - MXParallaxHeader (1.0.0)
+  - SDWebImage (5.3.0):
+    - SDWebImage/Core (= 5.3.0)
+  - SDWebImage/Core (5.3.0)
+
+DEPENDENCIES:
+  - JJFloatingActionButton
+  - MXParallaxHeader
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - JJFloatingActionButton
+    - MXParallaxHeader
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  JJFloatingActionButton: 26805f87c7e9f68c6a91bd9f3f09c2e6b904a84f
+  MXParallaxHeader: a95e0af1f485b1b718a6939f583f0dbae6992c41
+  SDWebImage: f1afa74b86587c2c63f4e80dfd39b21e3c17b45b
+
+PODFILE CHECKSUM: d5b1c6033e896b3c942c7bfabbc78c4d39c14b32
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="NkJ-xw-iQl">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Measurements-->
+        <scene sceneID="EGM-dQ-6JJ">
+            <objects>
+                <viewController storyboardIdentifier="MeasurementsVC" id="vRx-q4-ldq" customClass="MeasurementsVC" customModule="Daxko_FitSection" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5nd-Fs-MSB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jFp-X5-72v">
+                                <rect key="frame" x="20" y="140" width="374" height="32"/>
+                                <segments>
+                                    <segment title="Add Details"/>
+                                    <segment title="Track Progress"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jFp-X5-72v" firstAttribute="top" secondItem="FaH-eh-Nad" secondAttribute="top" id="7AC-Y7-cLM"/>
+                            <constraint firstItem="FaH-eh-Nad" firstAttribute="trailing" secondItem="jFp-X5-72v" secondAttribute="trailing" constant="20" id="BLK-15-Cie"/>
+                            <constraint firstItem="jFp-X5-72v" firstAttribute="leading" secondItem="FaH-eh-Nad" secondAttribute="leading" constant="20" id="kPV-is-Bvv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FaH-eh-Nad"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Measurements" id="qDA-bh-CGl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pby-Kx-j7E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2549" y="272"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="fwy-Ig-gU7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NkJ-xw-iQl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="h7e-Kk-azx">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vRx-q4-ldq" kind="relationship" relationship="rootViewController" id="CQM-VE-jLh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48W-Gt-x72" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1853.5999999999999" y="272.11394302848578"/>
+        </scene>
+    </scenes>
+</document>
