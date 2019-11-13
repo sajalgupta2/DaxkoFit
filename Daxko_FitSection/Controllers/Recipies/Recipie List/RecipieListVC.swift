@@ -19,6 +19,22 @@ class RecipieListVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.title = "Recipie List"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationItem.title = "Back"
+    }
+    
+    
+    @IBAction func myCartBarButtonAction(_ sender: UIBarButtonItem) {
+        let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+        self.navigationController?.pushViewController(vc!, animated: true)
+    }
 }
 
 //MARK: Delegate

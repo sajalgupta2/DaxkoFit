@@ -39,6 +39,7 @@
 		AE6F79C523789CFD00A2EA90 /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79B323789CFD00A2EA90 /* DotPlot.swift */; };
 		AE7844CE237A9CFD00D8A4E0 /* EventsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7844CD237A9CFD00D8A4E0 /* EventsListTableViewCell.swift */; };
 		AE929B982374604A0030D3EC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE929B972374604A0030D3EC /* Podfile */; };
+		AE9C4208237C3FF000211706 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C4207237C3FF000211706 /* iOSDropDown.swift */; };
 		AEA28EA523795E56004F5F52 /* TrackProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EA423795E56004F5F52 /* TrackProgressVC.swift */; };
 		AEA28EAA23795E89004F5F52 /* TrackProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EA923795E89004F5F52 /* TrackProgressTableViewCell.swift */; };
 		AEA28EAC23795FF9004F5F52 /* UIColor+colorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EAB23795FF9004F5F52 /* UIColor+colorFromHex.swift */; };
@@ -144,6 +145,7 @@
 		AE6F79B323789CFD00A2EA90 /* DotPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotPlot.swift; sourceTree = "<group>"; };
 		AE7844CD237A9CFD00D8A4E0 /* EventsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListTableViewCell.swift; sourceTree = "<group>"; };
 		AE929B972374604A0030D3EC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE9C4207237C3FF000211706 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
 		AEA28EA423795E56004F5F52 /* TrackProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressVC.swift; sourceTree = "<group>"; };
 		AEA28EA923795E89004F5F52 /* TrackProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressTableViewCell.swift; sourceTree = "<group>"; };
 		AEA28EAB23795FF9004F5F52 /* UIColor+colorFromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+colorFromHex.swift"; sourceTree = "<group>"; };
@@ -465,6 +467,14 @@
 			path = Events;
 			sourceTree = "<group>";
 		};
+		AE9C4206237C3FC700211706 /* Drop Down */ = {
+			isa = PBXGroup;
+			children = (
+				AE9C4207237C3FF000211706 /* iOSDropDown.swift */,
+			);
+			path = "Drop Down";
+			sourceTree = "<group>";
+		};
 		AEA28EA023795439004F5F52 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -582,6 +592,7 @@
 		AEAE078E2375F76E00EDA433 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				AE9C4206237C3FC700211706 /* Drop Down */,
 				AE6F799B23789CA100A2EA90 /* Graph */,
 				AEAE078F2375F78700EDA433 /* Date Picker */,
 				AEECCDA0237574F900FA2C6F /* SelectionMenuLauncher */,
@@ -826,8 +837,8 @@
 		AEECCD9F237574D300FA2C6F /* Daxko Shop */ = {
 			isa = PBXGroup;
 			children = (
-				AEA28EB1237974D8004F5F52 /* My Cart */,
 				AE6F7980237864BA00A2EA90 /* Home */,
+				AEA28EB1237974D8004F5F52 /* My Cart */,
 				AE6F7981237864C200A2EA90 /* Product Details */,
 				AE6F79892378853E00A2EA90 /* Paymet */,
 			);
@@ -1277,6 +1288,7 @@
 				AE6F798B2378855100A2EA90 /* PaymentVC.swift in Sources */,
 				AE6F79B723789CFD00A2EA90 /* DotDrawingLayer.swift in Sources */,
 				AEA28EAA23795E89004F5F52 /* TrackProgressTableViewCell.swift in Sources */,
+				AE9C4208237C3FF000211706 /* iOSDropDown.swift in Sources */,
 				AE6F79C223789CFD00A2EA90 /* GraphPoint.swift in Sources */,
 				AEBD13E223744A4B003AF2B2 /* SceneDelegate.swift in Sources */,
 				AE6F79B423789CFD00A2EA90 /* ReferenceLineDrawingView.swift in Sources */,
@@ -1456,7 +1468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59MDM6D7PR;
 				INFOPLIST_FILE = Daxko_FitSection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1476,7 +1488,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59MDM6D7PR;
 				INFOPLIST_FILE = Daxko_FitSection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

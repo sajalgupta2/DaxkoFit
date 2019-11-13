@@ -30,6 +30,21 @@ class RecipiesVC: Recipies_Extensions {
         tableView.tableFooterView = UIView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.title = "Meals"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationItem.title = "Back"
+    }
+    
+    @IBAction func myCartBarButtonAction(_ sender: UIBarButtonItem) {
+         let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+         self.navigationController?.pushViewController(vc!, animated: true)
+    }
+    
     @IBAction func createRecipieAction(_ sender: UIBarButtonItem) {
         
         let categories = ["Add Recipie"]

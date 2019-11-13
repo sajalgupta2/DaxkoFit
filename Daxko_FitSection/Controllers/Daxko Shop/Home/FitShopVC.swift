@@ -18,9 +18,25 @@ class FitShopVC: UIViewController {
     var shopArray = ["T-Shirt", "Cycle", "Apple Air pods", "Sony BDV", "American Touristor", "Samsung Tab", "Apple iPad", "Rayban", "Cannon EOS", "Go Pro", "Seagate", "WD Hard disk", "Macbook"]
     
     var priceArray = ["$100","$600","$700","$1500","$1700","$800","$400","$900","$100","$200","$500","$890","$750"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.title = "Daxko Fit Shop"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationItem.title = "Back"
+    }
+    
+    @IBAction func cartBarButtonAction(_ sender: UIBarButtonItem) {
+       let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+       self.navigationController?.pushViewController(vc!, animated: true)
     }
 }
 
