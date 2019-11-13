@@ -50,6 +50,8 @@ extension TransformationVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = transformationTableView.dequeueReusableCell(withIdentifier: "TransformationTableViewCell", for: indexPath) as! TransformationTableViewCell
+            cell.cellShareDelegate = self
+            cell.shareButtonOutlet.tag = indexPath.row
         return cell
     }
 }
@@ -67,3 +69,17 @@ extension TransformationVC : UITableViewDelegate {
     }
 }
 
+extension TransformationVC : TransformationTableViewCellDelegate {
+    
+    func didPressShareButton(_ tagValue: Int) {
+        print("I have pressed a button with a tag: \(tagValue)")
+        shareTransformation(tagValue)
+    }
+    
+    func shareTransformation(_ tagValue: Int) {
+        let objectsToShare = [tagValue, UIImage(named: "Anu")!] as [Any]
+        let activityVC = UIActivityViewController(activityItems: objectsToShare, applicationActivities: nil)
+        activityVC.excludedActivityTypes = [UIActivity.ActivityType.airDrop, UIActivity.ActivityType.postToFacebook, UIActivity.ActivityType.postToTwitter, UIActivity.ActivityType.saveToCameraRoll, UIActivity.ActivityType.mail]
+        self.present(activityVC, animated: true, completion: nil)
+    }
+}

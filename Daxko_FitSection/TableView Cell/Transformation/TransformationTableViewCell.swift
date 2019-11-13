@@ -8,17 +8,16 @@
 
 import UIKit
 
+protocol TransformationTableViewCellDelegate : class {
+    func didPressShareButton(_ tagValue: Int)
+}
+
 class TransformationTableViewCell: UITableViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var shareButtonOutlet : UIButton!
+    var cellShareDelegate: TransformationTableViewCellDelegate?
+    
+    @IBAction func shareButtonPressed(_ sender: UIButton) {
+        cellShareDelegate?.didPressShareButton(sender.tag)
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

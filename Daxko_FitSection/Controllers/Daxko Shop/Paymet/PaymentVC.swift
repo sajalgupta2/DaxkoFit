@@ -14,7 +14,7 @@ class PaymentVC: UIViewController {
 
     @IBOutlet weak var tableView : UITableView!
     
-    var sectionTitle = ["Confirmation to be sent on","Select a Payment Method"]
+    var sectionTitle = ["Confirmation to be sent on","Points","Select a Payment Method"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,19 +35,23 @@ extension PaymentVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if indexPath.section < 1 {
+        if indexPath.section == 0 {
             
              if let cell = tableView.dequeueReusableCell(withIdentifier: "PaymentConfirmationTableViewCell", for: indexPath) as? PaymentConfirmationTableViewCell {
                  return cell
              }
              
-         }else {
+         }else if indexPath.section == 1 {
              
+            if let cell = tableView.dequeueReusableCell(withIdentifier: "ApplyPointsTableViewCell", for: indexPath) as? ApplyPointsTableViewCell {
+                return cell
+            }
+            
+        }else {
             if let cell = tableView.dequeueReusableCell(withIdentifier: "PaymentOptionTableViewCell", for: indexPath) as? PaymentOptionTableViewCell {
                 return cell
             }
-             
-         }
+        }
          
         return UITableViewCell()
     }

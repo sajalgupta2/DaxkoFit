@@ -101,7 +101,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PqS-aN-DdZ">
-                                                            <rect key="frame" x="0.0" y="308.5" width="374" height="36.5"/>
+                                                            <rect key="frame" x="0.0" y="308.5" width="326" height="44.5"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="15"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -112,20 +112,33 @@
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Qp-jM-wlV">
+                                                            <rect key="frame" x="334" y="311" width="40" height="40"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="width" constant="40" id="FOC-0e-JEd"/>
+                                                                <constraint firstAttribute="height" constant="40" id="LEO-sc-9hb"/>
+                                                            </constraints>
+                                                            <state key="normal" image="export"/>
+                                                            <connections>
+                                                                <action selector="shareButtonPressed:" destination="tZB-y0-Amh" eventType="touchUpInside" id="NcT-UZ-GL2"/>
+                                                            </connections>
+                                                        </button>
                                                     </subviews>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                                     <constraints>
                                                         <constraint firstItem="q3S-ir-vbh" firstAttribute="leading" secondItem="1hY-fn-AtA" secondAttribute="leading" id="6Y4-Q2-Hjc"/>
                                                         <constraint firstItem="q3S-ir-vbh" firstAttribute="top" secondItem="acf-BD-IO7" secondAttribute="bottom" constant="4" id="8DC-Xr-zMb"/>
-                                                        <constraint firstAttribute="trailing" secondItem="PqS-aN-DdZ" secondAttribute="trailing" id="Dxg-Eq-6hP"/>
+                                                        <constraint firstAttribute="trailing" secondItem="PqS-aN-DdZ" secondAttribute="trailing" constant="48" id="Dxg-Eq-6hP"/>
                                                         <constraint firstItem="a0Y-Br-4xg" firstAttribute="height" secondItem="acf-BD-IO7" secondAttribute="height" id="K2l-3V-frF"/>
                                                         <constraint firstItem="acf-BD-IO7" firstAttribute="height" secondItem="W98-EI-x61" secondAttribute="height" multiplier="0.2" id="Mht-lM-brh"/>
-                                                        <constraint firstAttribute="bottom" secondItem="PqS-aN-DdZ" secondAttribute="bottom" constant="28" id="Qu8-RF-y9V"/>
+                                                        <constraint firstAttribute="bottom" secondItem="PqS-aN-DdZ" secondAttribute="bottom" constant="20" id="Qu8-RF-y9V"/>
                                                         <constraint firstItem="a0Y-Br-4xg" firstAttribute="trailing" secondItem="W98-EI-x61" secondAttribute="trailing" id="SH3-eY-RMn"/>
                                                         <constraint firstItem="W98-EI-x61" firstAttribute="top" secondItem="1hY-fn-AtA" secondAttribute="top" constant="8" id="SIf-0t-zfZ"/>
+                                                        <constraint firstItem="6Qp-jM-wlV" firstAttribute="centerY" secondItem="PqS-aN-DdZ" secondAttribute="centerY" id="U1R-qU-8MB"/>
                                                         <constraint firstItem="PqS-aN-DdZ" firstAttribute="top" secondItem="acf-BD-IO7" secondAttribute="bottom" constant="28" id="VOU-Qm-f5a"/>
                                                         <constraint firstAttribute="trailing" secondItem="W98-EI-x61" secondAttribute="trailing" id="ahx-io-oab"/>
                                                         <constraint firstItem="a0Y-Br-4xg" firstAttribute="width" secondItem="acf-BD-IO7" secondAttribute="width" id="iL7-oE-2pA"/>
+                                                        <constraint firstItem="6Qp-jM-wlV" firstAttribute="trailing" secondItem="a0Y-Br-4xg" secondAttribute="trailing" id="kZG-NW-zn6"/>
                                                         <constraint firstItem="W98-EI-x61" firstAttribute="leading" secondItem="1hY-fn-AtA" secondAttribute="leading" id="law-FH-iXA"/>
                                                         <constraint firstItem="acf-BD-IO7" firstAttribute="leading" secondItem="W98-EI-x61" secondAttribute="leading" id="lx6-xi-MSr"/>
                                                         <constraint firstItem="W98-EI-x61" firstAttribute="height" secondItem="1hY-fn-AtA" secondAttribute="height" multiplier="0.6" id="sb2-GZ-EGN"/>
@@ -144,6 +157,9 @@
                                                 <constraint firstItem="1hY-fn-AtA" firstAttribute="leading" secondItem="Oda-6W-qQ3" secondAttribute="leading" id="zUx-sV-Osk"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="shareButtonOutlet" destination="6Qp-jM-wlV" id="lOJ-f6-mko"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -175,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G5O-PD-B8d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2406" y="1037"/>
+            <point key="canvasLocation" x="2405.7971014492755" y="1036.6071428571429"/>
         </scene>
         <!--Add Transformation DetailsVC-->
         <scene sceneID="32E-Gv-Tb5">
@@ -367,6 +383,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="export" width="32" height="32"/>
         <image name="fitness_1" width="1000" height="1500"/>
         <image name="fitness_2" width="1000" height="1500"/>
         <image name="fitness_4" width="1000" height="1500"/>

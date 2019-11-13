@@ -14,7 +14,7 @@ class FitHome: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var actionButton: JJFloatingActionButton!
     
-    var postArray = ["Measurements", "Transformation", "Daxko Fit Shop", "Meals"]
+    var postArray = ["Measurements", "Transformation", "Daxko Fit Shop", "Meals", "Daxko Events"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -83,11 +83,8 @@ extension FitHome : UICollectionViewDelegate {
         case 3:
             pushNavigationController(storyBoardName: recipiesStroryBoardName, viewControllerIdentifier: recipiesVC, caseValue: 3)
             
-        case 4:
-            pushNavigationController(storyBoardName: trainerStroryBoardName, viewControllerIdentifier: trainerVC, caseValue: 4)
-            
         default:
-            pushNavigationController(storyBoardName: nutritionistStroryBoardName, viewControllerIdentifier: nutritionistVC, caseValue: 5)
+            pushNavigationController(storyBoardName: eventsStroryBoardName, viewControllerIdentifier: eventsListVC, caseValue: 6)
         }
     }
 }
@@ -116,9 +113,11 @@ extension FitHome {
         case 4:
             let vc = UIStoryboard.init(name: storyBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: viewControllerIdentifier) as? TrainerVC
                    self.navigationController?.pushViewController(vc!, animated: true)
-            
-        default:
+          case 5:
             let vc = UIStoryboard.init(name: storyBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: viewControllerIdentifier) as? NutritionistVC
+                   self.navigationController?.pushViewController(vc!, animated: true)
+        default:
+            let vc = UIStoryboard.init(name: storyBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: viewControllerIdentifier) as? EventsListVC
             self.navigationController?.pushViewController(vc!, animated: true)
         }
     }

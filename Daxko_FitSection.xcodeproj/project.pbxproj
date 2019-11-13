@@ -18,7 +18,37 @@
 		AE6F798F2378857500A2EA90 /* PaymentOptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F798E2378857500A2EA90 /* PaymentOptionTableViewCell.swift */; };
 		AE6F7993237885B300A2EA90 /* PaymentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F7992237885B300A2EA90 /* PaymentCollectionViewCell.swift */; };
 		AE6F799523788AA000A2EA90 /* PaymentConfirmationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F799423788AA000A2EA90 /* PaymentConfirmationTableViewCell.swift */; };
+		AE6F799A237898AF00A2EA90 /* ApplyPointsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F7999237898AF00A2EA90 /* ApplyPointsTableViewCell.swift */; };
+		AE6F79B423789CFD00A2EA90 /* ReferenceLineDrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F799E23789CFD00A2EA90 /* ReferenceLineDrawingView.swift */; };
+		AE6F79B523789CFD00A2EA90 /* BarDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F799F23789CFD00A2EA90 /* BarDrawingLayer.swift */; };
+		AE6F79B623789CFD00A2EA90 /* GradientDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A023789CFD00A2EA90 /* GradientDrawingLayer.swift */; };
+		AE6F79B723789CFD00A2EA90 /* DotDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A123789CFD00A2EA90 /* DotDrawingLayer.swift */; };
+		AE6F79B823789CFD00A2EA90 /* ScrollableGraphViewDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A223789CFD00A2EA90 /* ScrollableGraphViewDrawingLayer.swift */; };
+		AE6F79B923789CFD00A2EA90 /* LineDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A323789CFD00A2EA90 /* LineDrawingLayer.swift */; };
+		AE6F79BA23789CFD00A2EA90 /* FillDrawingLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A423789CFD00A2EA90 /* FillDrawingLayer.swift */; };
+		AE6F79BB23789CFD00A2EA90 /* ScrollableGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A523789CFD00A2EA90 /* ScrollableGraphView.swift */; };
+		AE6F79BC23789CFD00A2EA90 /* ScrollableGraphViewDrawingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A723789CFD00A2EA90 /* ScrollableGraphViewDrawingDelegate.swift */; };
+		AE6F79BD23789CFD00A2EA90 /* ScrollableGraphViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79A823789CFD00A2EA90 /* ScrollableGraphViewDataSource.swift */; };
+		AE6F79BE23789CFD00A2EA90 /* ReferenceLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79AA23789CFD00A2EA90 /* ReferenceLines.swift */; };
+		AE6F79BF23789CFD00A2EA90 /* LabelPool.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79AB23789CFD00A2EA90 /* LabelPool.swift */; };
+		AE6F79C023789CFD00A2EA90 /* BarPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79AD23789CFD00A2EA90 /* BarPlot.swift */; };
+		AE6F79C123789CFD00A2EA90 /* GraphPointAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79AF23789CFD00A2EA90 /* GraphPointAnimation.swift */; };
+		AE6F79C223789CFD00A2EA90 /* GraphPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79B023789CFD00A2EA90 /* GraphPoint.swift */; };
+		AE6F79C323789CFD00A2EA90 /* Plot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79B123789CFD00A2EA90 /* Plot.swift */; };
+		AE6F79C423789CFD00A2EA90 /* LinePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79B223789CFD00A2EA90 /* LinePlot.swift */; };
+		AE6F79C523789CFD00A2EA90 /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79B323789CFD00A2EA90 /* DotPlot.swift */; };
+		AE7844CE237A9CFD00D8A4E0 /* EventsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7844CD237A9CFD00D8A4E0 /* EventsListTableViewCell.swift */; };
 		AE929B982374604A0030D3EC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE929B972374604A0030D3EC /* Podfile */; };
+		AEA28EA523795E56004F5F52 /* TrackProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EA423795E56004F5F52 /* TrackProgressVC.swift */; };
+		AEA28EAA23795E89004F5F52 /* TrackProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EA923795E89004F5F52 /* TrackProgressTableViewCell.swift */; };
+		AEA28EAC23795FF9004F5F52 /* UIColor+colorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EAB23795FF9004F5F52 /* UIColor+colorFromHex.swift */; };
+		AEA28EB0237966BB004F5F52 /* TrackProgressVC+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EAF237966BB004F5F52 /* TrackProgressVC+Extensions.swift */; };
+		AEA28EB323797544004F5F52 /* MyCartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EB223797544004F5F52 /* MyCartVC.swift */; };
+		AEA28EB623797563004F5F52 /* MyCartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EB523797563004F5F52 /* MyCartTableViewCell.swift */; };
+		AEA28EB923797B15004F5F52 /* EventsListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EB823797B15004F5F52 /* EventsListVC.swift */; };
+		AEA28EBD23797B67004F5F52 /* EventsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EBC23797B67004F5F52 /* EventsDetailsVC.swift */; };
+		AEA28EC023797BC2004F5F52 /* TicketsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EBF23797BC2004F5F52 /* TicketsVC.swift */; };
+		AEA28EC323797CE1004F5F52 /* Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEA28EC223797CE1004F5F52 /* Events.storyboard */; };
 		AEAE079B237603B400EDA433 /* TransformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE079A237603B400EDA433 /* TransformationTableViewCell.swift */; };
 		AEAE079E23760AF100EDA433 /* TrainerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE079D23760AF100EDA433 /* TrainerCollectionViewCell.swift */; };
 		AEAE07A023760C4D00EDA433 /* FitnessExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAE079F23760C4D00EDA433 /* FitnessExercise.swift */; };
@@ -93,7 +123,37 @@
 		AE6F798E2378857500A2EA90 /* PaymentOptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentOptionTableViewCell.swift; sourceTree = "<group>"; };
 		AE6F7992237885B300A2EA90 /* PaymentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCollectionViewCell.swift; sourceTree = "<group>"; };
 		AE6F799423788AA000A2EA90 /* PaymentConfirmationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentConfirmationTableViewCell.swift; sourceTree = "<group>"; };
+		AE6F7999237898AF00A2EA90 /* ApplyPointsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyPointsTableViewCell.swift; sourceTree = "<group>"; };
+		AE6F799E23789CFD00A2EA90 /* ReferenceLineDrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceLineDrawingView.swift; sourceTree = "<group>"; };
+		AE6F799F23789CFD00A2EA90 /* BarDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDrawingLayer.swift; sourceTree = "<group>"; };
+		AE6F79A023789CFD00A2EA90 /* GradientDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientDrawingLayer.swift; sourceTree = "<group>"; };
+		AE6F79A123789CFD00A2EA90 /* DotDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotDrawingLayer.swift; sourceTree = "<group>"; };
+		AE6F79A223789CFD00A2EA90 /* ScrollableGraphViewDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingLayer.swift; sourceTree = "<group>"; };
+		AE6F79A323789CFD00A2EA90 /* LineDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDrawingLayer.swift; sourceTree = "<group>"; };
+		AE6F79A423789CFD00A2EA90 /* FillDrawingLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FillDrawingLayer.swift; sourceTree = "<group>"; };
+		AE6F79A523789CFD00A2EA90 /* ScrollableGraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphView.swift; sourceTree = "<group>"; };
+		AE6F79A723789CFD00A2EA90 /* ScrollableGraphViewDrawingDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDrawingDelegate.swift; sourceTree = "<group>"; };
+		AE6F79A823789CFD00A2EA90 /* ScrollableGraphViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableGraphViewDataSource.swift; sourceTree = "<group>"; };
+		AE6F79AA23789CFD00A2EA90 /* ReferenceLines.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceLines.swift; sourceTree = "<group>"; };
+		AE6F79AB23789CFD00A2EA90 /* LabelPool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelPool.swift; sourceTree = "<group>"; };
+		AE6F79AD23789CFD00A2EA90 /* BarPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarPlot.swift; sourceTree = "<group>"; };
+		AE6F79AF23789CFD00A2EA90 /* GraphPointAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPointAnimation.swift; sourceTree = "<group>"; };
+		AE6F79B023789CFD00A2EA90 /* GraphPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphPoint.swift; sourceTree = "<group>"; };
+		AE6F79B123789CFD00A2EA90 /* Plot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plot.swift; sourceTree = "<group>"; };
+		AE6F79B223789CFD00A2EA90 /* LinePlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinePlot.swift; sourceTree = "<group>"; };
+		AE6F79B323789CFD00A2EA90 /* DotPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotPlot.swift; sourceTree = "<group>"; };
+		AE7844CD237A9CFD00D8A4E0 /* EventsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListTableViewCell.swift; sourceTree = "<group>"; };
 		AE929B972374604A0030D3EC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEA28EA423795E56004F5F52 /* TrackProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressVC.swift; sourceTree = "<group>"; };
+		AEA28EA923795E89004F5F52 /* TrackProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressTableViewCell.swift; sourceTree = "<group>"; };
+		AEA28EAB23795FF9004F5F52 /* UIColor+colorFromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+colorFromHex.swift"; sourceTree = "<group>"; };
+		AEA28EAF237966BB004F5F52 /* TrackProgressVC+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrackProgressVC+Extensions.swift"; sourceTree = "<group>"; };
+		AEA28EB223797544004F5F52 /* MyCartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartVC.swift; sourceTree = "<group>"; };
+		AEA28EB523797563004F5F52 /* MyCartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCartTableViewCell.swift; sourceTree = "<group>"; };
+		AEA28EB823797B15004F5F52 /* EventsListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListVC.swift; sourceTree = "<group>"; };
+		AEA28EBC23797B67004F5F52 /* EventsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDetailsVC.swift; sourceTree = "<group>"; };
+		AEA28EBF23797BC2004F5F52 /* TicketsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsVC.swift; sourceTree = "<group>"; };
+		AEA28EC223797CE1004F5F52 /* Events.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Events.storyboard; sourceTree = "<group>"; };
 		AEAE079A237603B400EDA433 /* TransformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationTableViewCell.swift; sourceTree = "<group>"; };
 		AEAE079D23760AF100EDA433 /* TrainerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerCollectionViewCell.swift; sourceTree = "<group>"; };
 		AEAE079F23760C4D00EDA433 /* FitnessExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitnessExercise.swift; sourceTree = "<group>"; };
@@ -251,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				AE6F798C2378855B00A2EA90 /* Product Details */,
+				AEA28EB42379754F004F5F52 /* MyCart */,
 				AE6F798D2378856600A2EA90 /* Payment */,
 			);
 			path = "Fit Shop";
@@ -275,8 +336,9 @@
 		AE6F798D2378856600A2EA90 /* Payment */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F798E2378857500A2EA90 /* PaymentOptionTableViewCell.swift */,
-				AE6F799423788AA000A2EA90 /* PaymentConfirmationTableViewCell.swift */,
+				AE6F79982378989800A2EA90 /* Payment Option */,
+				AE6F79972378989000A2EA90 /* Confirmation */,
+				AE6F79962378988600A2EA90 /* Apply Points */,
 			);
 			path = Payment;
 			sourceTree = "<group>";
@@ -297,9 +359,230 @@
 			path = "Payment Options";
 			sourceTree = "<group>";
 		};
+		AE6F79962378988600A2EA90 /* Apply Points */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F7999237898AF00A2EA90 /* ApplyPointsTableViewCell.swift */,
+			);
+			path = "Apply Points";
+			sourceTree = "<group>";
+		};
+		AE6F79972378989000A2EA90 /* Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F799423788AA000A2EA90 /* PaymentConfirmationTableViewCell.swift */,
+			);
+			path = Confirmation;
+			sourceTree = "<group>";
+		};
+		AE6F79982378989800A2EA90 /* Payment Option */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F798E2378857500A2EA90 /* PaymentOptionTableViewCell.swift */,
+			);
+			path = "Payment Option";
+			sourceTree = "<group>";
+		};
+		AE6F799B23789CA100A2EA90 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EAE23796181004F5F52 /* Color Maker */,
+				AE6F799C23789CFD00A2EA90 /* Classes */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		AE6F799C23789CFD00A2EA90 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F79A523789CFD00A2EA90 /* ScrollableGraphView.swift */,
+				AE6F799D23789CFD00A2EA90 /* Drawing */,
+				AE6F79A623789CFD00A2EA90 /* Protocols */,
+				AE6F79A923789CFD00A2EA90 /* Reference */,
+				AE6F79AC23789CFD00A2EA90 /* Plots */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AE6F799D23789CFD00A2EA90 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F799E23789CFD00A2EA90 /* ReferenceLineDrawingView.swift */,
+				AE6F799F23789CFD00A2EA90 /* BarDrawingLayer.swift */,
+				AE6F79A023789CFD00A2EA90 /* GradientDrawingLayer.swift */,
+				AE6F79A123789CFD00A2EA90 /* DotDrawingLayer.swift */,
+				AE6F79A223789CFD00A2EA90 /* ScrollableGraphViewDrawingLayer.swift */,
+				AE6F79A323789CFD00A2EA90 /* LineDrawingLayer.swift */,
+				AE6F79A423789CFD00A2EA90 /* FillDrawingLayer.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
+		AE6F79A623789CFD00A2EA90 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F79A723789CFD00A2EA90 /* ScrollableGraphViewDrawingDelegate.swift */,
+				AE6F79A823789CFD00A2EA90 /* ScrollableGraphViewDataSource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AE6F79A923789CFD00A2EA90 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F79AA23789CFD00A2EA90 /* ReferenceLines.swift */,
+				AE6F79AB23789CFD00A2EA90 /* LabelPool.swift */,
+			);
+			path = Reference;
+			sourceTree = "<group>";
+		};
+		AE6F79AC23789CFD00A2EA90 /* Plots */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F79AD23789CFD00A2EA90 /* BarPlot.swift */,
+				AE6F79AE23789CFD00A2EA90 /* Animation */,
+				AE6F79B123789CFD00A2EA90 /* Plot.swift */,
+				AE6F79B223789CFD00A2EA90 /* LinePlot.swift */,
+				AE6F79B323789CFD00A2EA90 /* DotPlot.swift */,
+			);
+			path = Plots;
+			sourceTree = "<group>";
+		};
+		AE6F79AE23789CFD00A2EA90 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F79AF23789CFD00A2EA90 /* GraphPointAnimation.swift */,
+				AE6F79B023789CFD00A2EA90 /* GraphPoint.swift */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		AE7844CC237A9CEC00D8A4E0 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				AE7844CD237A9CFD00D8A4E0 /* EventsListTableViewCell.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		AEA28EA023795439004F5F52 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AEECCD80237543B300FA2C6F /* TransformationVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AEA28EA123795E11004F5F52 /* Main Container View */ = {
+			isa = PBXGroup;
+			children = (
+				AEECCD84237543D600FA2C6F /* MeasurementsVC.swift */,
+			);
+			path = "Main Container View";
+			sourceTree = "<group>";
+		};
+		AEA28EA223795E21004F5F52 /* Add Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Add Details";
+			sourceTree = "<group>";
+		};
+		AEA28EA323795E2E004F5F52 /* Track Progress */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EA423795E56004F5F52 /* TrackProgressVC.swift */,
+				AEA28EAF237966BB004F5F52 /* TrackProgressVC+Extensions.swift */,
+			);
+			path = "Track Progress";
+			sourceTree = "<group>";
+		};
+		AEA28EA623795E63004F5F52 /* Measurement */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EA823795E75004F5F52 /* Add Details */,
+				AEA28EA723795E6E004F5F52 /* Track Progress */,
+			);
+			path = Measurement;
+			sourceTree = "<group>";
+		};
+		AEA28EA723795E6E004F5F52 /* Track Progress */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EA923795E89004F5F52 /* TrackProgressTableViewCell.swift */,
+			);
+			path = "Track Progress";
+			sourceTree = "<group>";
+		};
+		AEA28EA823795E75004F5F52 /* Add Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Add Details";
+			sourceTree = "<group>";
+		};
+		AEA28EAE23796181004F5F52 /* Color Maker */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EAB23795FF9004F5F52 /* UIColor+colorFromHex.swift */,
+			);
+			path = "Color Maker";
+			sourceTree = "<group>";
+		};
+		AEA28EB1237974D8004F5F52 /* My Cart */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EB223797544004F5F52 /* MyCartVC.swift */,
+			);
+			path = "My Cart";
+			sourceTree = "<group>";
+		};
+		AEA28EB42379754F004F5F52 /* MyCart */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EB523797563004F5F52 /* MyCartTableViewCell.swift */,
+			);
+			path = MyCart;
+			sourceTree = "<group>";
+		};
+		AEA28EB723797AFC004F5F52 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EBA23797B45004F5F52 /* List */,
+				AEA28EBB23797B4F004F5F52 /* Events Details */,
+				AEA28EBE23797BAD004F5F52 /* Tickets */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		AEA28EBA23797B45004F5F52 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EB823797B15004F5F52 /* EventsListVC.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		AEA28EBB23797B4F004F5F52 /* Events Details */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EBC23797B67004F5F52 /* EventsDetailsVC.swift */,
+			);
+			path = "Events Details";
+			sourceTree = "<group>";
+		};
+		AEA28EBE23797BAD004F5F52 /* Tickets */ = {
+			isa = PBXGroup;
+			children = (
+				AEA28EBF23797BC2004F5F52 /* TicketsVC.swift */,
+			);
+			path = Tickets;
+			sourceTree = "<group>";
+		};
 		AEAE078E2375F76E00EDA433 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				AE6F799B23789CA100A2EA90 /* Graph */,
 				AEAE078F2375F78700EDA433 /* Date Picker */,
 				AEECCDA0237574F900FA2C6F /* SelectionMenuLauncher */,
 				AEECCDA723758C3100FA2C6F /* Extensions */,
@@ -415,6 +698,7 @@
 				AEECCD872375444400FA2C6F /* Measurements.storyboard */,
 				AEECCD882375444400FA2C6F /* Transformation.storyboard */,
 				AEECCD752375419500FA2C6F /* FitShop.storyboard */,
+				AEA28EC223797CE1004F5F52 /* Events.storyboard */,
 				AEECCD862375444400FA2C6F /* Recipies.storyboard */,
 				AEECCD7C2375438B00FA2C6F /* Trainer.storyboard */,
 				AEF4265023780BC100799AB4 /* Nutritinoist.storyboard */,
@@ -430,6 +714,7 @@
 				AEECCD9D2375749700FA2C6F /* Transformation */,
 				AEECCD9F237574D300FA2C6F /* Daxko Shop */,
 				AEECCD9A2375748800FA2C6F /* Recipies */,
+				AEA28EB723797AFC004F5F52 /* Events */,
 				AEECCD9E2375749F00FA2C6F /* Coaches */,
 			);
 			path = Controllers;
@@ -472,6 +757,8 @@
 		AEECCD94237558D300FA2C6F /* TableView Cell */ = {
 			isa = PBXGroup;
 			children = (
+				AE7844CC237A9CEC00D8A4E0 /* Events */,
+				AEA28EA623795E63004F5F52 /* Measurement */,
 				AE6F798623786BA000A2EA90 /* Fit Shop */,
 				AEF426552378177100799AB4 /* Coaches */,
 				AEECCDAE2375914000FA2C6F /* Recipie */,
@@ -510,7 +797,9 @@
 		AEECCD9C2375749100FA2C6F /* Measurements */ = {
 			isa = PBXGroup;
 			children = (
-				AEECCD84237543D600FA2C6F /* MeasurementsVC.swift */,
+				AEA28EA123795E11004F5F52 /* Main Container View */,
+				AEA28EA323795E2E004F5F52 /* Track Progress */,
+				AEA28EA223795E21004F5F52 /* Add Details */,
 			);
 			path = Measurements;
 			sourceTree = "<group>";
@@ -518,7 +807,7 @@
 		AEECCD9D2375749700FA2C6F /* Transformation */ = {
 			isa = PBXGroup;
 			children = (
-				AEECCD80237543B300FA2C6F /* TransformationVC.swift */,
+				AEA28EA023795439004F5F52 /* Home */,
 				AEF4265B2378243900799AB4 /* Add Transformation */,
 			);
 			path = Transformation;
@@ -537,6 +826,7 @@
 		AEECCD9F237574D300FA2C6F /* Daxko Shop */ = {
 			isa = PBXGroup;
 			children = (
+				AEA28EB1237974D8004F5F52 /* My Cart */,
 				AE6F7980237864BA00A2EA90 /* Home */,
 				AE6F7981237864C200A2EA90 /* Product Details */,
 				AE6F79892378853E00A2EA90 /* Paymet */,
@@ -806,6 +1096,7 @@
 				AEBD13EC23744A4C003AF2B2 /* LaunchScreen.storyboard in Resources */,
 				AEECCD892375444400FA2C6F /* Recipies.storyboard in Resources */,
 				AEBD13E923744A4C003AF2B2 /* Assets.xcassets in Resources */,
+				AEA28EC323797CE1004F5F52 /* Events.storyboard in Resources */,
 				AE929B982374604A0030D3EC /* Podfile in Resources */,
 				AEBD13E723744A4B003AF2B2 /* Main.storyboard in Resources */,
 				AEECCD762375419500FA2C6F /* FitShop.storyboard in Resources */,
@@ -922,20 +1213,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6F79C423789CFD00A2EA90 /* LinePlot.swift in Sources */,
 				AEECCD83237543C300FA2C6F /* RecipiesVC.swift in Sources */,
+				AE6F79BE23789CFD00A2EA90 /* ReferenceLines.swift in Sources */,
 				AEECCDB72375963600FA2C6F /* RecipieProcessTableViewCell.swift in Sources */,
+				AEA28EC023797BC2004F5F52 /* TicketsVC.swift in Sources */,
+				AE6F79C523789CFD00A2EA90 /* DotPlot.swift in Sources */,
 				AE6F798F2378857500A2EA90 /* PaymentOptionTableViewCell.swift in Sources */,
+				AEA28EB323797544004F5F52 /* MyCartVC.swift in Sources */,
 				AEECCD96237558E600FA2C6F /* RecipiesTableViewCell.swift in Sources */,
 				AEECCD85237543D600FA2C6F /* MeasurementsVC.swift in Sources */,
 				AE182AEA2377F3B50085337D /* NutritionistVC.swift in Sources */,
 				AEECCD8F23754FC500FA2C6F /* ShopCollectionViewCell.swift in Sources */,
 				AEECCDAB23758E0900FA2C6F /* Recipies+Extensions.swift in Sources */,
+				AE6F79BD23789CFD00A2EA90 /* ScrollableGraphViewDataSource.swift in Sources */,
+				AE6F79BB23789CFD00A2EA90 /* ScrollableGraphView.swift in Sources */,
 				AEECCDA923758C3F00FA2C6F /* ViewController+Extensions.swift in Sources */,
+				AEA28EBD23797B67004F5F52 /* EventsDetailsVC.swift in Sources */,
 				AEBD13E423744A4B003AF2B2 /* FitHome.swift in Sources */,
 				AEECCD7F237543A600FA2C6F /* TrainerVC.swift in Sources */,
 				AEECCDBA23759D1800FA2C6F /* RecipieListCollectionViewCell.swift in Sources */,
+				AEA28EAC23795FF9004F5F52 /* UIColor+colorFromHex.swift in Sources */,
 				AEECCD7B2375423400FA2C6F /* FitShopVC.swift in Sources */,
+				AE6F79C123789CFD00A2EA90 /* GraphPointAnimation.swift in Sources */,
+				AE6F79B523789CFD00A2EA90 /* BarDrawingLayer.swift in Sources */,
+				AEA28EB0237966BB004F5F52 /* TrackProgressVC+Extensions.swift in Sources */,
 				AEBD1411237450C8003AF2B2 /* FitHomeCollectionViewCell.swift in Sources */,
+				AE7844CE237A9CFD00D8A4E0 /* EventsListTableViewCell.swift in Sources */,
+				AE6F799A237898AF00A2EA90 /* ApplyPointsTableViewCell.swift in Sources */,
 				AEAE07A023760C4D00EDA433 /* FitnessExercise.swift in Sources */,
 				AEAE079B237603B400EDA433 /* TransformationTableViewCell.swift in Sources */,
 				AE6F798823786BEF00A2EA90 /* FitShopTableViewCell.swift in Sources */,
@@ -944,6 +1249,12 @@
 				AEECCD9923755A0600FA2C6F /* MoreRecipiesCollectionViewCell.swift in Sources */,
 				AEF426582378178F00799AB4 /* CoachDetailsTableViewCell.swift in Sources */,
 				AEBD13E023744A4B003AF2B2 /* AppDelegate.swift in Sources */,
+				AE6F79C323789CFD00A2EA90 /* Plot.swift in Sources */,
+				AEA28EA523795E56004F5F52 /* TrackProgressVC.swift in Sources */,
+				AE6F79B623789CFD00A2EA90 /* GradientDrawingLayer.swift in Sources */,
+				AE6F79BF23789CFD00A2EA90 /* LabelPool.swift in Sources */,
+				AEA28EB623797563004F5F52 /* MyCartTableViewCell.swift in Sources */,
+				AE6F79B823789CFD00A2EA90 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
 				AE6F7993237885B300A2EA90 /* PaymentCollectionViewCell.swift in Sources */,
 				AEF4265A23781E5200799AB4 /* AddTransformationDetailsVC.swift in Sources */,
 				AEECCD81237543B300FA2C6F /* TransformationVC.swift in Sources */,
@@ -954,12 +1265,21 @@
 				AEECCDB02375916000FA2C6F /* RecipieDescriptionTableViewCell.swift in Sources */,
 				AEECCDB5237595E100FA2C6F /* RecipieIngredientsTableViewCell.swift in Sources */,
 				AEECCDA623758AB800FA2C6F /* AddRecipieVC.swift in Sources */,
+				AE6F79C023789CFD00A2EA90 /* BarPlot.swift in Sources */,
 				AE6F7983237864E300A2EA90 /* FitProductDetailsVC.swift in Sources */,
 				AE6F799523788AA000A2EA90 /* PaymentConfirmationTableViewCell.swift in Sources */,
+				AE6F79B923789CFD00A2EA90 /* LineDrawingLayer.swift in Sources */,
+				AE6F79BA23789CFD00A2EA90 /* FillDrawingLayer.swift in Sources */,
 				AEECCD93237556B600FA2C6F /* RecipiesHeaderCollectionViewCell.swift in Sources */,
+				AEA28EB923797B15004F5F52 /* EventsListVC.swift in Sources */,
+				AE6F79BC23789CFD00A2EA90 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
 				AEECCDBD23759D5300FA2C6F /* RecipieListVC.swift in Sources */,
 				AE6F798B2378855100A2EA90 /* PaymentVC.swift in Sources */,
+				AE6F79B723789CFD00A2EA90 /* DotDrawingLayer.swift in Sources */,
+				AEA28EAA23795E89004F5F52 /* TrackProgressTableViewCell.swift in Sources */,
+				AE6F79C223789CFD00A2EA90 /* GraphPoint.swift in Sources */,
 				AEBD13E223744A4B003AF2B2 /* SceneDelegate.swift in Sources */,
+				AE6F79B423789CFD00A2EA90 /* ReferenceLineDrawingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1134,7 +1454,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59MDM6D7PR;
 				INFOPLIST_FILE = Daxko_FitSection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1152,7 +1474,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 59MDM6D7PR;
 				INFOPLIST_FILE = Daxko_FitSection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
