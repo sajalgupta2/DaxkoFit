@@ -18,11 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8ID-XJ-eSo">
-<<<<<<< HEAD
-                                <rect key="frame" x="0.0" y="161" width="414" height="701"/>
-=======
-                                <rect key="frame" x="0.0" y="44" width="320" height="436"/>
->>>>>>> 110216b270cfb24f23026c5ead28cb89edf8aae4
+                                <rect key="frame" x="0.0" y="117" width="320" height="363"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0xs-HJ-ztl">
                                     <size key="itemSize" width="173" height="164"/>
@@ -48,13 +44,13 @@
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="eTM-0H-0PA">
                                                             <rect key="frame" x="51.5" y="11" width="70" height="43"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Item Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3E-Rc-3LK">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Item Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3E-Rc-3LK">
                                                                     <rect key="frame" x="0.0" y="0.0" width="70" height="17"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt2-aP-X9d">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mt2-aP-X9d">
                                                                     <rect key="frame" x="0.0" y="23" width="70" height="20"/>
                                                                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
@@ -108,7 +104,7 @@
                                 </connections>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g3S-7s-5LD">
-                                <rect key="frame" x="8" y="96" width="398" height="60"/>
+                                <rect key="frame" x="8" y="52" width="304" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qb0-qd-FIi" customClass="DropDown" customModule="Daxko_FitSection" customModuleProvider="target">
                                         <rect key="frame" x="8" y="12" width="150" height="36"/>
@@ -119,7 +115,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KaV-oV-jLs">
-                                        <rect key="frame" x="336" y="5" width="50" height="50"/>
+                                        <rect key="frame" x="242" y="5" width="50" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="50" id="38Y-8u-put"/>
                                             <constraint firstAttribute="width" secondItem="KaV-oV-jLs" secondAttribute="height" multiplier="1:1" id="KPy-ZS-TdH"/>
@@ -772,7 +768,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="bi5-h9-vuK"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7ge-l0-bdG">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -782,7 +778,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lSo-B8-m4P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2769.5652173913045" y="117.85714285714285"/>
+            <point key="canvasLocation" x="3403" y="118"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="TlH-ZL-FWa">
@@ -824,13 +820,8 @@
     <resources>
         <image name="Anu" width="1440" height="1420"/>
         <image name="Avengers" width="728" height="775"/>
-        <image name="cart" catalog="system" width="64" height="50"/>
+        <image name="cart" catalog="system" width="32" height="32"/>
         <image name="chat" width="30" height="30"/>
-<<<<<<< HEAD
-        <image name="delete" width="32" height="32"/>
         <image name="sharp_filter_list_black_48pt_1x" width="48" height="48"/>
-        <image name="shopping-cart" width="32" height="32"/>
-=======
->>>>>>> 110216b270cfb24f23026c5ead28cb89edf8aae4
     </resources>
 </document>
