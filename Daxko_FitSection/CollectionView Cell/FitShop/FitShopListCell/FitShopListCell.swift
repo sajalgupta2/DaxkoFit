@@ -10,9 +10,14 @@ import UIKit
 
 class FitShopListCell: UICollectionViewCell {
 
+    @IBOutlet weak var shopImageView: UIImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        
     }
 
 }

@@ -107,10 +107,7 @@
                                 <rect key="frame" x="8" y="52" width="304" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qb0-qd-FIi" customClass="DropDown" customModule="Daxko_FitSection" customModuleProvider="target">
-                                        <rect key="frame" x="8" y="12" width="150" height="36"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="150" id="1Yq-ON-YGH"/>
-                                        </constraints>
+                                        <rect key="frame" x="8" y="12" width="152" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -122,11 +119,14 @@
                                             <constraint firstAttribute="height" constant="50" id="qc2-4y-wHG"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="sharp_filter_list_black_48pt_1x"/>
+                                        <connections>
+                                            <action selector="listGridToggleBtn:" destination="bhB-Ib-IKw" eventType="touchUpInside" id="5de-XE-zzN"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="0Fb-FY-b66"/>
+                                    <constraint firstItem="qb0-qd-FIi" firstAttribute="width" secondItem="g3S-7s-5LD" secondAttribute="width" multiplier="0.5" id="4W6-yt-ffX"/>
                                     <constraint firstItem="KaV-oV-jLs" firstAttribute="centerY" secondItem="qb0-qd-FIi" secondAttribute="centerY" id="9XJ-w3-l8A"/>
                                     <constraint firstAttribute="bottom" secondItem="qb0-qd-FIi" secondAttribute="bottom" constant="12" id="LLE-zr-XyY"/>
                                     <constraint firstItem="qb0-qd-FIi" firstAttribute="top" secondItem="g3S-7s-5LD" secondAttribute="top" constant="12" id="MsS-z3-3rh"/>

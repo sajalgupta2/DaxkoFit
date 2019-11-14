@@ -92,6 +92,7 @@
 		AEF42653237815BE00799AB4 /* CoachDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF42652237815BE00799AB4 /* CoachDetailsVC.swift */; };
 		AEF426582378178F00799AB4 /* CoachDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF426572378178F00799AB4 /* CoachDetailsTableViewCell.swift */; };
 		AEF4265A23781E5200799AB4 /* AddTransformationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4265923781E5200799AB4 /* AddTransformationDetailsVC.swift */; };
+		FA35A32B237DB901001FBEB6 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A32A237DB901001FBEB6 /* UICollectionViewCell+Extension.swift */; };
 		FA7D93B7237D30F400D4DED3 /* FitShopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D93B6237D30F400D4DED3 /* FitShopDetails.swift */; };
 		FAB722F7237D64F4008B6D4E /* FitShopListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB722F5237D64F4008B6D4E /* FitShopListCell.swift */; };
 		FAB722F8237D64F4008B6D4E /* FitShopListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB722F6237D64F4008B6D4E /* FitShopListCell.xib */; };
@@ -212,6 +213,7 @@
 		C33AB7B606A51A7CD8EA3ED2 /* Pods-Daxko_FitSection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxko_FitSection.release.xcconfig"; path = "Target Support Files/Pods-Daxko_FitSection/Pods-Daxko_FitSection.release.xcconfig"; sourceTree = "<group>"; };
 		EA4FCB9D2ABBD2AFA2B75DA7 /* Pods_Daxko_FitSection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daxko_FitSection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DDBF35FE8B0D4500C16F37 /* Pods_Daxko_FitSectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daxko_FitSectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA35A32A237DB901001FBEB6 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
 		FA7D93B6237D30F400D4DED3 /* FitShopDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitShopDetails.swift; sourceTree = "<group>"; };
 		FAB722F5237D64F4008B6D4E /* FitShopListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitShopListCell.swift; sourceTree = "<group>"; };
 		FAB722F6237D64F4008B6D4E /* FitShopListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FitShopListCell.xib; sourceTree = "<group>"; };
@@ -885,6 +887,7 @@
 			isa = PBXGroup;
 			children = (
 				AEECCDA823758C3F00FA2C6F /* ViewController+Extensions.swift */,
+				FA35A32A237DB901001FBEB6 /* UICollectionViewCell+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1305,6 +1308,7 @@
 				AE6F79BF23789CFD00A2EA90 /* LabelPool.swift in Sources */,
 				AEA28EB623797563004F5F52 /* MyCartTableViewCell.swift in Sources */,
 				AE6F79B823789CFD00A2EA90 /* ScrollableGraphViewDrawingLayer.swift in Sources */,
+				FA35A32B237DB901001FBEB6 /* UICollectionViewCell+Extension.swift in Sources */,
 				AE6F7993237885B300A2EA90 /* PaymentCollectionViewCell.swift in Sources */,
 				AEF4265A23781E5200799AB4 /* AddTransformationDetailsVC.swift in Sources */,
 				AEECCD81237543B300FA2C6F /* TransformationVC.swift in Sources */,
