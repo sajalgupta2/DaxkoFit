@@ -19,11 +19,13 @@ class FitProductDetailsVC: UIViewController, MXParallaxHeaderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+         title = ""
         setupHeaderView()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+       
         tableView.parallaxHeader.minimumHeight = view.safeAreaInsets.top
     }
     
