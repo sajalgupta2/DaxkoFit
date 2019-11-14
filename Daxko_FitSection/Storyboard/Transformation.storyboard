@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t3W-gW-7nS">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t3W-gW-7nS">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -178,11 +179,19 @@
                         <viewLayoutGuide key="safeArea" id="vOb-w9-fP7"/>
                     </view>
                     <navigationItem key="navigationItem" title="Transformation" id="t5M-BN-Ubh">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zFc-1h-H9g">
-                            <connections>
-                                <action selector="addTransformationAction:" destination="HRw-Cy-9uv" id="81k-P1-HLl"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem image="cart" catalog="system" id="syf-fo-yAJ">
+                                <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <connections>
+                                    <action selector="cartBarButtonAction:" destination="HRw-Cy-9uv" id="qrF-Mi-fky"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="zFc-1h-H9g">
+                                <connections>
+                                    <action selector="addTransformationAction:" destination="HRw-Cy-9uv" id="81k-P1-HLl"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="transformationTableView" destination="VUe-F0-72p" id="P0X-GH-Rr2"/>
@@ -383,6 +392,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="cart" catalog="system" width="64" height="50"/>
         <image name="export" width="32" height="32"/>
         <image name="fitness_1" width="1000" height="1500"/>
         <image name="fitness_2" width="1000" height="1500"/>

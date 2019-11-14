@@ -22,6 +22,22 @@ class FitProductDetailsVC: UIViewController, MXParallaxHeaderDelegate {
         setupHeaderView()
     }
     
+    @IBAction func cartBarButtonAction(_ sender: UIBarButtonItem) {
+       let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+       self.navigationController?.pushViewController(vc!, animated: true)
+    }
+    
+    @IBAction func addCartButtonAction(_ sender: UIButton) {
+       let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+       self.navigationController?.pushViewController(vc!, animated: true)
+    }
+    
+    @IBAction func buyButtonAction(_ sender: UIButton) {
+          let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: paymentVC) as? PaymentVC
+          self.navigationController?.pushViewController(vc!, animated: true)
+    }
+       
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         tableView.parallaxHeader.minimumHeight = view.safeAreaInsets.top
