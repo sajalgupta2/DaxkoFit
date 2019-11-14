@@ -15,10 +15,13 @@ class MeasurementsVC: UIViewController {
 
     @IBOutlet weak var addDetailsCV : UIView!
     @IBOutlet weak var trackProgressCV : UIView!
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

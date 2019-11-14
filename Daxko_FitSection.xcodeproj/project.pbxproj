@@ -12,6 +12,7 @@
 		92CA892A6CB969B32EECF19F /* Pods_Daxko_FitSectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDD593DC88889A4475BD691 /* Pods_Daxko_FitSectionUITests.framework */; };
 		AE182AEA2377F3B50085337D /* NutritionistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE182AE92377F3B50085337D /* NutritionistVC.swift */; };
 		AE3065212377FC4100CF1A60 /* NutrinoistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3065202377FC4100CF1A60 /* NutrinoistCollectionViewCell.swift */; };
+		AE67B662237D522500007876 /* AddDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67B661237D522500007876 /* AddDetailsVC.swift */; };
 		AE6F7983237864E300A2EA90 /* FitProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F7982237864E300A2EA90 /* FitProductDetailsVC.swift */; };
 		AE6F798823786BEF00A2EA90 /* FitShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F798723786BEF00A2EA90 /* FitShopTableViewCell.swift */; };
 		AE6F798B2378855100A2EA90 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F798A2378855100A2EA90 /* PaymentVC.swift */; };
@@ -118,6 +119,7 @@
 		8B2C80F44C52507F2DA2BA2A /* Pods-Daxko_FitSectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxko_FitSectionTests.release.xcconfig"; path = "Target Support Files/Pods-Daxko_FitSectionTests/Pods-Daxko_FitSectionTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE182AE92377F3B50085337D /* NutritionistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionistVC.swift; sourceTree = "<group>"; };
 		AE3065202377FC4100CF1A60 /* NutrinoistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrinoistCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE67B661237D522500007876 /* AddDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsVC.swift; sourceTree = "<group>"; };
 		AE6F7982237864E300A2EA90 /* FitProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitProductDetailsVC.swift; sourceTree = "<group>"; };
 		AE6F798723786BEF00A2EA90 /* FitShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitShopTableViewCell.swift; sourceTree = "<group>"; };
 		AE6F798A2378855100A2EA90 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
@@ -494,6 +496,7 @@
 		AEA28EA223795E21004F5F52 /* Add Details */ = {
 			isa = PBXGroup;
 			children = (
+				AE67B661237D522500007876 /* AddDetailsVC.swift */,
 			);
 			path = "Add Details";
 			sourceTree = "<group>";
@@ -1292,6 +1295,7 @@
 				AE6F79C223789CFD00A2EA90 /* GraphPoint.swift in Sources */,
 				AEBD13E223744A4B003AF2B2 /* SceneDelegate.swift in Sources */,
 				AE6F79B423789CFD00A2EA90 /* ReferenceLineDrawingView.swift in Sources */,
+				AE67B662237D522500007876 /* AddDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

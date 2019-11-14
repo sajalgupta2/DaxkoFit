@@ -200,15 +200,15 @@
                     </view>
                     <navigationItem key="navigationItem" title="Meals" id="lJU-tQ-zzm">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="add" id="v8r-Gi-Vkp">
-                                <connections>
-                                    <action selector="createRecipieAction:" destination="cOn-Km-U8M" id="ZWA-x2-o9d"/>
-                                </connections>
-                            </barButtonItem>
                             <barButtonItem image="cart" catalog="system" id="r2K-s3-PdM">
                                 <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="myCartBarButtonAction:" destination="cOn-Km-U8M" id="eyF-ji-HXE"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="v8r-Gi-Vkp">
+                                <connections>
+                                    <action selector="createRecipieAction:" destination="cOn-Km-U8M" id="ZWA-x2-o9d"/>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>

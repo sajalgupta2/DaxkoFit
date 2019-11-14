@@ -104,6 +104,9 @@
                     <navigationItem key="navigationItem" title="Trainers" id="TNW-1Q-mNp">
                         <barButtonItem key="rightBarButtonItem" image="cart" catalog="system" id="aOg-FC-9NC">
                             <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="cartBarButtonAction:" destination="117-Zr-AHL" id="fxe-8M-Trw"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>

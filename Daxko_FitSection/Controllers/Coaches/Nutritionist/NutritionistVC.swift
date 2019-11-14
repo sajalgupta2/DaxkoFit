@@ -24,6 +24,11 @@ class NutritionistVC: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    @IBAction func cartBarButtonAction(_ sender: UIBarButtonItem) {
+       let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+       self.navigationController?.pushViewController(vc!, animated: true)
+    }
 }
 
 //MARK: Delegate

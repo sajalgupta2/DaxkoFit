@@ -180,15 +180,15 @@
                     </view>
                     <navigationItem key="navigationItem" title="Transformation" id="t5M-BN-Ubh">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="add" id="zFc-1h-H9g">
-                                <connections>
-                                    <action selector="addTransformationAction:" destination="HRw-Cy-9uv" id="81k-P1-HLl"/>
-                                </connections>
-                            </barButtonItem>
                             <barButtonItem image="cart" catalog="system" id="syf-fo-yAJ">
                                 <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <action selector="cartBarButtonAction:" destination="HRw-Cy-9uv" id="qrF-Mi-fky"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem systemItem="add" id="zFc-1h-H9g">
+                                <connections>
+                                    <action selector="addTransformationAction:" destination="HRw-Cy-9uv" id="81k-P1-HLl"/>
                                 </connections>
                             </barButtonItem>
                         </rightBarButtonItems>

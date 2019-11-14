@@ -105,6 +105,9 @@
                     <navigationItem key="navigationItem" title="Nutritinoist" id="Asq-Qc-PZI">
                         <barButtonItem key="rightBarButtonItem" image="cart" catalog="system" id="ywY-pz-G2X">
                             <color key="tintColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="cartBarButtonAction:" destination="UXM-qE-ZKh" id="Bkr-6p-N4A"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
