@@ -7,7 +7,7 @@ use_frameworks!
 pod 'SDWebImage'
 pod 'JJFloatingActionButton'
 pod 'MXParallaxHeader'
-pod 'DisplaySwitcher'
+#pod 'DisplaySwitcher'
 # Pods for Daxko_FitSection
 
 target 'Daxko_FitSectionTests' do

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+//import DisplaySwitcher
 
 let fitStroryBoardName = "FitShop"
 let fitVC = "FitShopVC"
@@ -17,7 +18,15 @@ class FitShopVC: UIViewController {
     @IBOutlet weak var shopCollectionView: UICollectionView!
     @IBOutlet weak var filterOptionView: UIView!
     
+    private let listLayoutStaticCellHeight: CGFloat = 130.0
+    private let gridLayoutStaticCellHeight: CGFloat = 220.0
     
+    private lazy var listLayout = DisplaySwitchLayout(staticCellHeight: listLayoutStaticCellHeight, nextLayoutStaticCellHeight: gridLayoutStaticCellHeight, layoutState: .list)
+
+    private lazy var gridLayout = DisplaySwitchLayout(staticCellHeight: gridLayoutStaticCellHeight, nextLayoutStaticCellHeight: listLayoutStaticCellHeight, layoutState: .grid)
+    
+    private var layoutState: LayoutState = .list
+   
 
     lazy var fitShopDetails = [
         FitShopDetails(shopName: "American", price: 1700),
@@ -40,14 +49,7 @@ class FitShopVC: UIViewController {
         super.viewDidLayoutSubviews()
          
     }
-    
-//    let gridLayoutStaticCellHeight = 200
-//    let listLayoutStaticCellHeight = 120
-//    private lazy var listLayout = BaseLayout(staticCellHeight: CGFloat(listLayoutStaticCellHeight), nextLayoutStaticCellHeight: gridLayoutStaticCellHeight, layoutState: .listLayoutState)
-//
-//    private lazy var gridLayout = BaseLayout(staticCellHeight: CGFloat(gridLayoutStaticCellHeight), nextLayoutStaticCellHeight: listLayoutStaticCellHeight, layoutState: .gridLayoutState)
-//
-//    private var layoutState: CollectionViewLayoutState = .listLayoutState
+ 
     enum SortBy: Int {
         case alphabetically = 0
         case piceLowToHigh = 1
@@ -91,6 +93,7 @@ class FitShopVC: UIViewController {
       // setupSortedFilter()
         registerXib()
         setData()
+        shopCollectionView.collectionViewLayout = listLayout
         
     }
     
@@ -189,8 +192,21 @@ class FitShopVC: UIViewController {
 //
 //
 //        shopCollectionView.collectionViewLayout.invalidateLayout()
-        shopCollectionView.reloadData()
+        //shopCollectionView.reloadData()
       //  shopCollectionView.reloadSections(IndexSet(integer: 0))
+        
+        let animationDuration = 0.3
+        let transitionManager: TransitionManager
+        if layoutState == .list {
+            layoutState = .grid
+            transitionManager = TransitionManager(duration: animationDuration, collectionView: shopCollectionView, destinationLayout: gridLayout, layoutState: layoutState)
+        } else {
+            layoutState = .list
+            transitionManager = TransitionManager(duration: animationDuration, collectionView: shopCollectionView, destinationLayout: listLayout, layoutState: layoutState)
+        }
+        transitionManager.startInteractiveTransition()
+       // rotationButton.selected = layoutState == .list
+       // rotationButton.animationDuration = animationDuration
     }
     
     @objc private func filterBarButtonTapped(_ sender : UIBarButtonItem) {
@@ -230,38 +246,41 @@ class FitShopVC: UIViewController {
 //==========================================
 extension FitShopVC: UICollectionViewDataSource, UICollectionViewDelegate,  UICollectionViewDelegateFlowLayout {
    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        
-          if collectionType == .gridView {
-           let flowayout = collectionViewLayout as? UICollectionViewFlowLayout
-           let space: CGFloat = (flowayout?.minimumInteritemSpacing ?? 0.0) + (flowayout?.sectionInset.left ?? 0.0) + (flowayout?.sectionInset.right ?? 0.0)
-           let size:CGFloat = (collectionView.frame.size.width - space) / 2.0
-           return CGSize(width: size, height: size)
-          } else {
-            return CGSize(width: self.shopCollectionView.frame.width, height: 130)
-        }
-       }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//
+//          if collectionType == .gridView {
+//           let flowayout = collectionViewLayout as? UICollectionViewFlowLayout
+//           let space: CGFloat = (flowayout?.minimumInteritemSpacing ?? 0.0) + (flowayout?.sectionInset.left ?? 0.0) + (flowayout?.sectionInset.right ?? 0.0)
+//           let size:CGFloat = (collectionView.frame.size.width - space) / 2.0
+//           return CGSize(width: size, height: size)
+//          } else {
+//            return CGSize(width: self.shopCollectionView.frame.width, height: 130)
+//        }
+//       }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
          return fitShopDetails.count
      }
     
-//    func collectionView(_ collectionView: UICollectionView, transitionLayoutForOldLayout fromLayout: UICollectionViewLayout, newLayout toLayout: UICollectionViewLayout) -> UICollectionViewTransitionLayout {
-//         let customTransitionLayout = TransitionLayout(currentLayout: fromLayout, nextLayout: toLayout)
-//              return customTransitionLayout
-//    }
+    func collectionView(_ collectionView: UICollectionView, transitionLayoutForOldLayout fromLayout: UICollectionViewLayout, newLayout toLayout: UICollectionViewLayout) -> UICollectionViewTransitionLayout {
+         let customTransitionLayout = TransitionLayout(currentLayout: fromLayout, nextLayout: toLayout)
+              return customTransitionLayout
+    }
      func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        if collectionType == .gridView {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ShopCollectionViewCell", for: indexPath) as! ShopCollectionViewCell
-            cell.itemName.text = fitShopDetails[indexPath.row].shopName
-            cell.priceLabel.text = fitShopDetails[indexPath.row].formattedPrice
-            return cell
-        } else {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FitShopListCell.defaultReuseIdentifier, for: indexPath) as! FitShopListCell
-            
-             return cell
-            
-        }
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ShopCollectionViewCell", for: indexPath) as! ShopCollectionViewCell
+                 cell.itemName.text = fitShopDetails[indexPath.row].shopName
+                 cell.priceLabel.text = fitShopDetails[indexPath.row].formattedPrice
+          return cell
+//        if collectionType == .gridView {
+//
+//            return cell
+//        } else {
+//            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FitShopListCell.defaultReuseIdentifier, for: indexPath) as! FitShopListCell
+//
+//             return cell
+//
+//        }
          
      }
     
@@ -272,22 +291,22 @@ extension FitShopVC: UICollectionViewDataSource, UICollectionViewDelegate,  UICo
           
         }
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        if collectionType == .gridView {
-            return 10
-        } else {
-            return 10
-        }
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        if collectionType == .gridView {
-            return 10
-        } else {
-            return 0
-        }
-        
-    }
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+//        if collectionType == .gridView {
+//            return 10
+//        } else {
+//            return 10
+//        }
+//    }
+//
+//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+//        if collectionType == .gridView {
+//            return 10
+//        } else {
+//            return 0
+//        }
+//
+//    }
 }
 
 
