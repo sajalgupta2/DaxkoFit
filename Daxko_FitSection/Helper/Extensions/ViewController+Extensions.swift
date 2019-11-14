@@ -6,7 +6,6 @@
 //  Copyright © 2019 Anurag Kashyap. All rights reserved.
 //
 
-<<<<<<< HEAD
 import UIKit
 
 extension UIViewController  {
@@ -36,9 +35,7 @@ extension UIViewController  {
 
 }
 
-=======
-import Foundation
-import UIKit
+
 
 extension UIView {
 
@@ -53,4 +50,3 @@ func setCardView(){
     
     }
 }
->>>>>>> 110216b270cfb24f23026c5ead28cb89edf8aae4
