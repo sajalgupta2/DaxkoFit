@@ -25,6 +25,21 @@ class TransformationVC: UIViewController {
 
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.title = "Transformation"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationItem.title = "Back"
+    }
+    
+    @IBAction func cartBarButtonAction(_ sender: UIBarButtonItem) {
+       let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+       self.navigationController?.pushViewController(vc!, animated: true)
+    }
+    
     @IBAction func addTransformationAction(_ sender: UIBarButtonItem) {
         
         let categories = ["Add Transformation"]

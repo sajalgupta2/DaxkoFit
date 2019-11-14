@@ -8,21 +8,55 @@
 
 import UIKit
 
+protocol myCartTableViewCellDelegate : class {
+    func didPressRemoveButton(_ tagValue: Int)
+}
+
 class MyCartTableViewCell: UITableViewCell {
     
     @IBOutlet weak var procustImageView : UIImageView!
     @IBOutlet weak var titleLabel : UILabel!
     @IBOutlet weak var removeButton : UIButton!
+    @IBOutlet weak var sizeButtonOutlet : UIButton!
+    @IBOutlet weak var quantityButtonOutlet : UIButton!
+    
+    @IBOutlet weak var sizeTFOutlet : DropDown!
+    @IBOutlet weak var quantityTFOutlet : DropDown!
+    
+    var sizeArray = ["S","M","L","XL","XXL"]
+    var quantityArray = ["1","2","3","4"]
+    
+    var myCartDelegate: myCartTableViewCellDelegate?
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+        sizeTFOutlet.optionArray = sizeArray
+        quantityTFOutlet.optionArray = quantityArray
+        
+        sizeTFOutlet.delegate = self
+        quantityTFOutlet.delegate = self
+        
+        quantityTFOutlet.didSelect{(selectedText , index ,id) in
+            self.quantityTFOutlet.text = "\(selectedText)"
+        }
+        
+        sizeTFOutlet.didSelect{(selectedText , index ,id) in
+            self.sizeTFOutlet.text = "\(selectedText)"
+        }
+        
+        self.setCardView()
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    
+    @IBAction func removeButtonPressed(_ sender: UIButton) {
+        myCartDelegate?.didPressRemoveButton(sender.tag)
     }
+}
 
+extension MyCartTableViewCell : UITextFieldDelegate {
+    
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        return false
+    }
+    
 }

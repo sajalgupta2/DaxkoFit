@@ -18,6 +18,7 @@ class FitShopVC: UIViewController {
     @IBOutlet weak var filterOptionView: UIView!
     
     
+<<<<<<< HEAD
     lazy var fitShopDetails = [FitShopDetails(shopName: "T-Shirt", price: 100), FitShopDetails(shopName: "Cycle", price: 600),
                                FitShopDetails(shopName: "Apple Air pods", price: 700),
                                FitShopDetails(shopName: "Sony BDV", price: 1500),
@@ -32,6 +33,9 @@ class FitShopVC: UIViewController {
                                FitShopDetails(shopName: "WD Hard disk", price: 890),
                                FitShopDetails(shopName: "Macbook", price: 750)
     ]
+=======
+    var priceArray = ["$100","$600","$700","$1500","$1700","$800","$400","$900","$100","$200","$500","$890","$750"]
+>>>>>>> 110216b270cfb24f23026c5ead28cb89edf8aae4
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,6 +74,7 @@ class FitShopVC: UIViewController {
     //}
     }
     
+<<<<<<< HEAD
     
     func setRightBarButton(with image: UIImage? = UIImage(named: "sharp_filter_list_black_48pt_1x"), text: String? = nil) {
 
@@ -113,6 +118,22 @@ class FitShopVC: UIViewController {
           print("toggleGridListView")
          
       }
+=======
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.title = "Daxko Fit Shop"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationItem.title = "Back"
+    }
+    
+    @IBAction func cartBarButtonAction(_ sender: UIBarButtonItem) {
+       let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+       self.navigationController?.pushViewController(vc!, animated: true)
+    }
+>>>>>>> 110216b270cfb24f23026c5ead28cb89edf8aae4
 }
 
 //MARK: Delegate

@@ -14,11 +14,21 @@ class FitHome: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var actionButton: JJFloatingActionButton!
     
-    var postArray = ["Measurements", "Transformation", "Daxko Fit Shop", "Meals", "Daxko Events"]
+    var postArray = ["Measurements", "Transformation", "Daxko Fit Shop", "Meals"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupFloatingButton()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationItem.title = "Daxko Fit"
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        navigationItem.title = "Back"
     }
     
     func setupFloatingButton() {
@@ -38,6 +48,11 @@ class FitHome: UIViewController {
         
         actionButton.display(inViewController: self)
     }
+    
+    @IBAction func cartBarButtonAction(_ sender: UIBarButtonItem) {
+         let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
+         self.navigationController?.pushViewController(vc!, animated: true)
+      }
 }
 
 //MARK: Delegate
@@ -72,6 +87,7 @@ extension FitHome : UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
         switch indexPath.row {
+            
         case 0:
             pushNavigationController(storyBoardName: measurementStroryBoardName, viewControllerIdentifier: measurementVC, caseValue: 0)
             

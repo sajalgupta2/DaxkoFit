@@ -12,6 +12,7 @@
 		92CA892A6CB969B32EECF19F /* Pods_Daxko_FitSectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDD593DC88889A4475BD691 /* Pods_Daxko_FitSectionUITests.framework */; };
 		AE182AEA2377F3B50085337D /* NutritionistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE182AE92377F3B50085337D /* NutritionistVC.swift */; };
 		AE3065212377FC4100CF1A60 /* NutrinoistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3065202377FC4100CF1A60 /* NutrinoistCollectionViewCell.swift */; };
+		AE67B662237D522500007876 /* AddDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE67B661237D522500007876 /* AddDetailsVC.swift */; };
 		AE6F7983237864E300A2EA90 /* FitProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F7982237864E300A2EA90 /* FitProductDetailsVC.swift */; };
 		AE6F798823786BEF00A2EA90 /* FitShopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F798723786BEF00A2EA90 /* FitShopTableViewCell.swift */; };
 		AE6F798B2378855100A2EA90 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F798A2378855100A2EA90 /* PaymentVC.swift */; };
@@ -39,6 +40,7 @@
 		AE6F79C523789CFD00A2EA90 /* DotPlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F79B323789CFD00A2EA90 /* DotPlot.swift */; };
 		AE7844CE237A9CFD00D8A4E0 /* EventsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7844CD237A9CFD00D8A4E0 /* EventsListTableViewCell.swift */; };
 		AE929B982374604A0030D3EC /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = AE929B972374604A0030D3EC /* Podfile */; };
+		AE9C4208237C3FF000211706 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C4207237C3FF000211706 /* iOSDropDown.swift */; };
 		AEA28EA523795E56004F5F52 /* TrackProgressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EA423795E56004F5F52 /* TrackProgressVC.swift */; };
 		AEA28EAA23795E89004F5F52 /* TrackProgressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EA923795E89004F5F52 /* TrackProgressTableViewCell.swift */; };
 		AEA28EAC23795FF9004F5F52 /* UIColor+colorFromHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA28EAB23795FF9004F5F52 /* UIColor+colorFromHex.swift */; };
@@ -120,6 +122,7 @@
 		8B2C80F44C52507F2DA2BA2A /* Pods-Daxko_FitSectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxko_FitSectionTests.release.xcconfig"; path = "Target Support Files/Pods-Daxko_FitSectionTests/Pods-Daxko_FitSectionTests.release.xcconfig"; sourceTree = "<group>"; };
 		AE182AE92377F3B50085337D /* NutritionistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionistVC.swift; sourceTree = "<group>"; };
 		AE3065202377FC4100CF1A60 /* NutrinoistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrinoistCollectionViewCell.swift; sourceTree = "<group>"; };
+		AE67B661237D522500007876 /* AddDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsVC.swift; sourceTree = "<group>"; };
 		AE6F7982237864E300A2EA90 /* FitProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitProductDetailsVC.swift; sourceTree = "<group>"; };
 		AE6F798723786BEF00A2EA90 /* FitShopTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitShopTableViewCell.swift; sourceTree = "<group>"; };
 		AE6F798A2378855100A2EA90 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
@@ -147,6 +150,7 @@
 		AE6F79B323789CFD00A2EA90 /* DotPlot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotPlot.swift; sourceTree = "<group>"; };
 		AE7844CD237A9CFD00D8A4E0 /* EventsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListTableViewCell.swift; sourceTree = "<group>"; };
 		AE929B972374604A0030D3EC /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE9C4207237C3FF000211706 /* iOSDropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iOSDropDown.swift; sourceTree = "<group>"; };
 		AEA28EA423795E56004F5F52 /* TrackProgressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressVC.swift; sourceTree = "<group>"; };
 		AEA28EA923795E89004F5F52 /* TrackProgressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackProgressTableViewCell.swift; sourceTree = "<group>"; };
 		AEA28EAB23795FF9004F5F52 /* UIColor+colorFromHex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+colorFromHex.swift"; sourceTree = "<group>"; };
@@ -471,6 +475,14 @@
 			path = Events;
 			sourceTree = "<group>";
 		};
+		AE9C4206237C3FC700211706 /* Drop Down */ = {
+			isa = PBXGroup;
+			children = (
+				AE9C4207237C3FF000211706 /* iOSDropDown.swift */,
+			);
+			path = "Drop Down";
+			sourceTree = "<group>";
+		};
 		AEA28EA023795439004F5F52 /* Home */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,6 +502,7 @@
 		AEA28EA223795E21004F5F52 /* Add Details */ = {
 			isa = PBXGroup;
 			children = (
+				AE67B661237D522500007876 /* AddDetailsVC.swift */,
 			);
 			path = "Add Details";
 			sourceTree = "<group>";
@@ -588,6 +601,7 @@
 		AEAE078E2375F76E00EDA433 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				AE9C4206237C3FC700211706 /* Drop Down */,
 				AE6F799B23789CA100A2EA90 /* Graph */,
 				AEAE078F2375F78700EDA433 /* Date Picker */,
 				AEECCDA0237574F900FA2C6F /* SelectionMenuLauncher */,
@@ -834,8 +848,8 @@
 		AEECCD9F237574D300FA2C6F /* Daxko Shop */ = {
 			isa = PBXGroup;
 			children = (
-				AEA28EB1237974D8004F5F52 /* My Cart */,
 				AE6F7980237864BA00A2EA90 /* Home */,
+				AEA28EB1237974D8004F5F52 /* My Cart */,
 				AE6F7981237864C200A2EA90 /* Product Details */,
 				AE6F79892378853E00A2EA90 /* Paymet */,
 			);
@@ -1313,9 +1327,11 @@
 				AE6F798B2378855100A2EA90 /* PaymentVC.swift in Sources */,
 				AE6F79B723789CFD00A2EA90 /* DotDrawingLayer.swift in Sources */,
 				AEA28EAA23795E89004F5F52 /* TrackProgressTableViewCell.swift in Sources */,
+				AE9C4208237C3FF000211706 /* iOSDropDown.swift in Sources */,
 				AE6F79C223789CFD00A2EA90 /* GraphPoint.swift in Sources */,
 				AEBD13E223744A4B003AF2B2 /* SceneDelegate.swift in Sources */,
 				AE6F79B423789CFD00A2EA90 /* ReferenceLineDrawingView.swift in Sources */,
+				AE67B662237D522500007876 /* AddDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1492,7 +1508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59MDM6D7PR;
 				INFOPLIST_FILE = Daxko_FitSection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1512,7 +1528,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 59MDM6D7PR;
 				INFOPLIST_FILE = Daxko_FitSection/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
