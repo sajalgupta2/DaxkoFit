@@ -25,7 +25,7 @@ class FitShopVC: UIViewController {
 
     private lazy var gridLayout = DisplaySwitchLayout(staticCellHeight: gridLayoutStaticCellHeight, nextLayoutStaticCellHeight: listLayoutStaticCellHeight, layoutState: .grid)
     
-    private var layoutState: LayoutState = .list
+    private var layoutState: LayoutState = .grid
    
 
     lazy var fitShopDetails = [
@@ -45,25 +45,22 @@ class FitShopVC: UIViewController {
         FitShopDetails(shopName: "WD Hard disk", price: 890),
     ]
   
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-         
-    }
- 
+   
     enum SortBy: Int {
         case alphabetically = 0
         case piceLowToHigh = 1
+        case priceHighToLow = 2
         
         init(value: Int) {
             self = SortBy(rawValue: value) ?? .alphabetically
         }
         
         var ids: [Int] {
-            return [SortBy.alphabetically.rawValue, SortBy.piceLowToHigh.rawValue]
+            return [SortBy.alphabetically.rawValue, SortBy.piceLowToHigh.rawValue, SortBy.priceHighToLow.rawValue]
         }
         
         var options: [String] {
-             return [SortBy.alphabetically.formattedText, SortBy.piceLowToHigh.formattedText]
+             return [SortBy.alphabetically.formattedText, SortBy.piceLowToHigh.formattedText, SortBy.priceHighToLow.formattedText]
         }
         var formattedText: String {
             switch self {
@@ -71,6 +68,8 @@ class FitShopVC: UIViewController {
                 return "A-Z"
             case .piceLowToHigh:
                 return "Price - Low To High"
+            case .priceHighToLow:
+                 return "Price - High To Low"
             }
         }
     }
@@ -90,17 +89,18 @@ class FitShopVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
                             
-      // setupSortedFilter()
+   
         registerXib()
         setData()
-        shopCollectionView.collectionViewLayout = listLayout
+        shopCollectionView.collectionViewLayout = gridLayout
         
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
        
-        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationController?.navigationBar.prefersLargeTitles = false
+           setupNavigationBar()
     }
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
@@ -108,6 +108,11 @@ class FitShopVC: UIViewController {
         navigationController?.navigationBar.prefersLargeTitles = false
     }
 
+    
+    func setupNavigationBar() {
+        navigationController?.navigationBar.barTintColor = UIColor.black
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+    }
     
     func registerXib() {
         shopCollectionView.register(UINib(nibName: FitShopListCell.defaultReuseIdentifier, bundle: nil), forCellWithReuseIdentifier: FitShopListCell.defaultReuseIdentifier)
@@ -125,6 +130,10 @@ class FitShopVC: UIViewController {
             fitShopDetails = fitShopDetails.sorted(by: { (object1, object2) -> Bool in
                 return object1.price < object2.price
             })
+        case .priceHighToLow:
+            fitShopDetails = fitShopDetails.sorted(by: { (object1, object2) -> Bool in
+                return object1.price > object2.price
+            })
         }
          shopCollectionView.reloadSections(IndexSet(integer: 0))
     }
@@ -135,6 +144,7 @@ class FitShopVC: UIViewController {
         dropDownTextFld.optionArray = selectedSortBy.options
         dropDownTextFld.selectedIndex = selectedSortBy.rawValue
         dropDownTextFld.text = selectedSortBy.formattedText
+        dropDownTextFld.selectedRowColor = UIColor.cyanTheme
 //       dropDownTextFld.arrowSize = self.dropDownTextFld.bounds
                dropDownTextFld.delegate = self
 
@@ -199,6 +209,7 @@ class FitShopVC: UIViewController {
         let transitionManager: TransitionManager
         if layoutState == .list {
             layoutState = .grid
+           
             transitionManager = TransitionManager(duration: animationDuration, collectionView: shopCollectionView, destinationLayout: gridLayout, layoutState: layoutState)
         } else {
             layoutState = .list
@@ -271,6 +282,8 @@ extension FitShopVC: UICollectionViewDataSource, UICollectionViewDelegate,  UICo
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ShopCollectionViewCell", for: indexPath) as! ShopCollectionViewCell
                  cell.itemName.text = fitShopDetails[indexPath.row].shopName
                  cell.priceLabel.text = fitShopDetails[indexPath.row].formattedPrice
+//        cell.bottomContainerView.backgroundColor = UIColor.cyanTheme
+//        cell.shopImageView.image = UIImage(named: "bigstock-chef-decorating-delicious-dess-80769961-1240x698")
           return cell
 //        if collectionType == .gridView {
 //

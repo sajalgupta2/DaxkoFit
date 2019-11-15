@@ -13,7 +13,7 @@ open class DropDown : UITextField{
     var arrow : Arrow!
     var table : UITableView!
     var shadow : UIView!
-    public  var selectedIndex: Int?
+    public var selectedIndex: Int?
 
 
     //MARK: IBInspectable

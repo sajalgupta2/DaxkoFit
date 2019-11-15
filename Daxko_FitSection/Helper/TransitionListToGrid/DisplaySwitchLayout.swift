@@ -9,12 +9,23 @@
 import UIKit
 
 private let ListLayoutCountOfColumns = 1
-private let GridLayoutCountOfColumns = 3
+private let GridLayoutCountOfColumns = 2
 
 @objc public enum LayoutState: Int {
     
     case list, grid
 
+    
+    var icon: UIImage {
+        switch self {
+        case .list:
+            return UIImage(named: "ic_view_stream_36pt_2x")!
+        case .grid:
+            return UIImage(named: "ic_view_quilt_36pt_2x")!
+        default:
+            return UIImage()
+        }
+    }
 }
 
 open class DisplaySwitchLayout: UICollectionViewLayout {

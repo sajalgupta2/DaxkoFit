@@ -47,6 +47,7 @@ fileprivate extension TransitionManager {
         startTime = CACurrentMediaTime()
         updater = CADisplayLink(target: self, selector: #selector(updateTransitionProgress))
         updater.frameInterval = 1
+//        updater.preferredFramesPerSecond = 1
         updater.add(to: RunLoop.current, forMode: RunLoop.Mode.common)
     }
     
