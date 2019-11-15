@@ -14,6 +14,20 @@ private let GridLayoutCountOfColumns = 3
 @objc public enum LayoutState: Int {
     
     case list, grid
+    
+    init(value: Int) {
+        self = LayoutState(rawValue: value) ?? .grid
+    }
+    var icon: UIImage {
+           switch self {
+           case .list:
+               return UIImage(named: "ic_view_stream_36pt_2x")!
+           case .grid:
+               return UIImage(named: "ic_view_quilt_36pt_2x")!
+           default:
+               return UIImage()
+           }
+       }
 
 }
 
