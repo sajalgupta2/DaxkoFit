@@ -16,6 +16,8 @@ struct FitShopDetails {
     var formattedPrice: String {
         return "$ \(price)"
     }
+    
+    
 }
 
 
