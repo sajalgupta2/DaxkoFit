@@ -24,6 +24,7 @@ class FitHome: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationItem.title = "Daxko Fit"
+        self.navigationController?.navigationBar.backgroundColor = UIColor.black
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -77,7 +78,22 @@ extension FitHome : UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "FitHomeCollectionViewCell", for: indexPath) as! FitHomeCollectionViewCell
         cell.titleLabel.text = postArray[indexPath.row]
         //cell.imageViewFitCategories.image = UIImage(named: postArray[indexPath.row])
+        colorCells(index: indexPath.row, collectionCell: cell)
         return cell
+    }
+    
+    func colorCells(index:Int, collectionCell: UICollectionViewCell) {
+        
+        switch index {
+        case 0:
+            collectionCell.backgroundColor = UIColor(displayP3Red: 179/255, green: 186/255, blue: 91/255, alpha: 1.0)
+        case 1:
+            collectionCell.backgroundColor = UIColor(displayP3Red: 238/255, green: 38/255, blue: 78/255, alpha: 1.0)
+        case 2:
+            collectionCell.backgroundColor = UIColor(displayP3Red: 165/255, green: 219/255, blue: 216/255, alpha: 1.0)
+        default:
+            collectionCell.backgroundColor = UIColor(displayP3Red: 231/255, green: 173/255, blue: 28/255, alpha: 1.0)
+        }
     }
 }
 

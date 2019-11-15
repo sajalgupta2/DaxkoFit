@@ -17,7 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UINavigationBar.appearance().tintColor = .black
         UINavigationController().navigationBar.backItem?.title = "Back"
-        
+       //UINavigationController().navigationBar.backgroundColor = UIColor.black
+        //UINavigationBar.appearance().backgroundColor = UIColor.black
         return true
     }
 

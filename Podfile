@@ -10,6 +10,8 @@ pod 'MXParallaxHeader'
 pod 'SwiftyJSON'
 pod 'Alamofire'
 #pod 'DisplaySwitcher'
+pod 'GlidingCollection'
+pod 'YPImagePicker'
 # Pods for Daxko_FitSection
 
 target 'Daxko_FitSectionTests' do

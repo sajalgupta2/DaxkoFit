@@ -22,7 +22,7 @@ class TransformationVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationController?.navigationBar.backgroundColor = UIColor(displayP3Red: 238/255, green: 38/255, blue: 78/255, alpha: 1.0)
     }
     
     override func viewWillAppear(_ animated: Bool) {
