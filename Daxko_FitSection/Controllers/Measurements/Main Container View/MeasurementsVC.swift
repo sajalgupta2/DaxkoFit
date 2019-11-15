@@ -16,12 +16,12 @@ class MeasurementsVC: UIViewController {
     @IBOutlet weak var addDetailsCV : UIView!
     @IBOutlet weak var trackProgressCV : UIView!
    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.navigationController?.navigationBar.backgroundColor = #colorLiteral(red: 0.3794822693, green: 0.4184020758, blue: 0.1830984354, alpha: 1)
+        
     }
-    
-    
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

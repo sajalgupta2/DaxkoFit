@@ -1,26 +1,42 @@
 PODS:
+  - GlidingCollection (2.1.0)
   - JJFloatingActionButton (2.1.0)
   - MXParallaxHeader (1.0.0)
+  - PryntTrimmerView (4.0.0)
   - SDWebImage (5.3.0):
     - SDWebImage/Core (= 5.3.0)
   - SDWebImage/Core (5.3.0)
+  - SteviaLayout (4.6.1)
+  - YPImagePicker (4.1.2):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.6.0)
 
 DEPENDENCIES:
+  - GlidingCollection
   - JJFloatingActionButton
   - MXParallaxHeader
   - SDWebImage
+  - YPImagePicker
 
 SPEC REPOS:
   trunk:
+    - GlidingCollection
     - JJFloatingActionButton
     - MXParallaxHeader
+    - PryntTrimmerView
     - SDWebImage
+    - SteviaLayout
+    - YPImagePicker
 
 SPEC CHECKSUMS:
+  GlidingCollection: a15dbd9ec1775c781453bc36e6104d0c9dec20fb
   JJFloatingActionButton: 26805f87c7e9f68c6a91bd9f3f09c2e6b904a84f
   MXParallaxHeader: a95e0af1f485b1b718a6939f583f0dbae6992c41
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
   SDWebImage: f1afa74b86587c2c63f4e80dfd39b21e3c17b45b
+  SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
+  YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad
 
-PODFILE CHECKSUM: d5b1c6033e896b3c942c7bfabbc78c4d39c14b32
+PODFILE CHECKSUM: 11bcf5e8b0ac8d62b476a38b2b4d3253d12998d7
 
 COCOAPODS: 1.8.4

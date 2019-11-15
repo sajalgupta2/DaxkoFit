@@ -7,6 +7,8 @@ use_frameworks!
 pod 'SDWebImage'
 pod 'JJFloatingActionButton'
 pod 'MXParallaxHeader'
+pod 'GlidingCollection'
+pod 'YPImagePicker'
 # Pods for Daxko_FitSection
 
 target 'Daxko_FitSectionTests' do
