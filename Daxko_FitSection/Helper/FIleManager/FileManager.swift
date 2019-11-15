@@ -31,14 +31,4 @@ extension FileManager {
     
     return paths
   }
-  
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
