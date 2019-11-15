@@ -10,34 +10,34 @@
 		1D8EF069723EB4A1EA769829 /* Pods_Daxko_FitSection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4FCB9D2ABBD2AFA2B75DA7 /* Pods_Daxko_FitSection.framework */; };
 		5097D6449870895957D3A4B5 /* Pods_Daxko_FitSectionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8DDBF35FE8B0D4500C16F37 /* Pods_Daxko_FitSectionTests.framework */; };
 		92CA892A6CB969B32EECF19F /* Pods_Daxko_FitSectionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDD593DC88889A4475BD691 /* Pods_Daxko_FitSectionUITests.framework */; };
+		AE17A54D237EB5CF00E7119E /* Hoodie5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A532237EB5CE00E7119E /* Hoodie5.jpeg */; };
+		AE17A54E237EB5CF00E7119E /* Hoodie4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A533237EB5CE00E7119E /* Hoodie4.jpeg */; };
+		AE17A54F237EB5CF00E7119E /* Hoodie3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A534237EB5CE00E7119E /* Hoodie3.jpeg */; };
+		AE17A550237EB5CF00E7119E /* Hoodie2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A535237EB5CE00E7119E /* Hoodie2.jpeg */; };
+		AE17A551237EB5CF00E7119E /* Hoodie1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A536237EB5CE00E7119E /* Hoodie1.jpeg */; };
+		AE17A552237EB5CF00E7119E /* Hoodie6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A537237EB5CE00E7119E /* Hoodie6.jpeg */; };
+		AE17A553237EB5CF00E7119E /* Boots7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A539237EB5CE00E7119E /* Boots7.jpeg */; };
+		AE17A554237EB5CF00E7119E /* Boots6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A53A237EB5CE00E7119E /* Boots6.jpeg */; };
+		AE17A555237EB5CF00E7119E /* Boots1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A53B237EB5CF00E7119E /* Boots1.jpeg */; };
+		AE17A556237EB5CF00E7119E /* Boots3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A53C237EB5CF00E7119E /* Boots3.jpeg */; };
+		AE17A557237EB5CF00E7119E /* Boots2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A53D237EB5CF00E7119E /* Boots2.jpeg */; };
+		AE17A558237EB5CF00E7119E /* Boots5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A53E237EB5CF00E7119E /* Boots5.jpeg */; };
+		AE17A559237EB5CF00E7119E /* Boots4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A53F237EB5CF00E7119E /* Boots4.jpeg */; };
+		AE17A55A237EB5CF00E7119E /* Gloves1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A541237EB5CF00E7119E /* Gloves1.jpeg */; };
+		AE17A55B237EB5CF00E7119E /* Gloves6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A542237EB5CF00E7119E /* Gloves6.jpeg */; };
+		AE17A55C237EB5CF00E7119E /* Gloves4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A543237EB5CF00E7119E /* Gloves4.jpeg */; };
+		AE17A55D237EB5CF00E7119E /* Gloves5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A544237EB5CF00E7119E /* Gloves5.jpeg */; };
+		AE17A55E237EB5CF00E7119E /* Gloves2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A545237EB5CF00E7119E /* Gloves2.jpeg */; };
+		AE17A55F237EB5CF00E7119E /* Gloves3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A546237EB5CF00E7119E /* Gloves3.jpeg */; };
+		AE17A560237EB5CF00E7119E /* Bindings1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A548237EB5CF00E7119E /* Bindings1.jpeg */; };
+		AE17A561237EB5CF00E7119E /* Bindings5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A549237EB5CF00E7119E /* Bindings5.jpeg */; };
+		AE17A562237EB5CF00E7119E /* Bindings4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A54A237EB5CF00E7119E /* Bindings4.jpeg */; };
+		AE17A563237EB5CF00E7119E /* Bindings3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A54B237EB5CF00E7119E /* Bindings3.jpeg */; };
+		AE17A564237EB5CF00E7119E /* Bindings2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE17A54C237EB5CF00E7119E /* Bindings2.jpeg */; };
 		AE182AEA2377F3B50085337D /* NutritionistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE182AE92377F3B50085337D /* NutritionistVC.swift */; };
 		AE2CE87E237DC5B7005E8FB1 /* PhotoBrowseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2CE87D237DC5B7005E8FB1 /* PhotoBrowseVC.swift */; };
 		AE2CE880237DCA3B005E8FB1 /* CollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE87F237DCA3B005E8FB1 /* CollectionCell.xib */; };
 		AE2CE882237DCA4B005E8FB1 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2CE881237DCA4B005E8FB1 /* CollectionCell.swift */; };
-		AE2CE8A0237DCAF3005E8FB1 /* Bindings1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE885237DCAF3005E8FB1 /* Bindings1.jpeg */; };
-		AE2CE8A1237DCAF3005E8FB1 /* Bindings5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE886237DCAF3005E8FB1 /* Bindings5.jpeg */; };
-		AE2CE8A2237DCAF3005E8FB1 /* Bindings4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE887237DCAF3005E8FB1 /* Bindings4.jpeg */; };
-		AE2CE8A3237DCAF3005E8FB1 /* Bindings3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE888237DCAF3005E8FB1 /* Bindings3.jpeg */; };
-		AE2CE8A4237DCAF3005E8FB1 /* Bindings2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE889237DCAF3005E8FB1 /* Bindings2.jpeg */; };
-		AE2CE8A5237DCAF3005E8FB1 /* Hoodie5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE88B237DCAF3005E8FB1 /* Hoodie5.jpeg */; };
-		AE2CE8A6237DCAF3005E8FB1 /* Hoodie4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE88C237DCAF3005E8FB1 /* Hoodie4.jpeg */; };
-		AE2CE8A7237DCAF3005E8FB1 /* Hoodie3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE88D237DCAF3005E8FB1 /* Hoodie3.jpeg */; };
-		AE2CE8A8237DCAF3005E8FB1 /* Hoodie2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE88E237DCAF3005E8FB1 /* Hoodie2.jpeg */; };
-		AE2CE8A9237DCAF3005E8FB1 /* Hoodie1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE88F237DCAF3005E8FB1 /* Hoodie1.jpeg */; };
-		AE2CE8AA237DCAF3005E8FB1 /* Hoodie6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE890237DCAF3005E8FB1 /* Hoodie6.jpeg */; };
-		AE2CE8AB237DCAF3005E8FB1 /* Boots7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE892237DCAF3005E8FB1 /* Boots7.jpeg */; };
-		AE2CE8AC237DCAF3005E8FB1 /* Boots6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE893237DCAF3005E8FB1 /* Boots6.jpeg */; };
-		AE2CE8AD237DCAF3005E8FB1 /* Boots1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE894237DCAF3005E8FB1 /* Boots1.jpeg */; };
-		AE2CE8AE237DCAF3005E8FB1 /* Boots3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE895237DCAF3005E8FB1 /* Boots3.jpeg */; };
-		AE2CE8AF237DCAF3005E8FB1 /* Boots2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE896237DCAF3005E8FB1 /* Boots2.jpeg */; };
-		AE2CE8B0237DCAF3005E8FB1 /* Boots5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE897237DCAF3005E8FB1 /* Boots5.jpeg */; };
-		AE2CE8B1237DCAF3005E8FB1 /* Boots4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE898237DCAF3005E8FB1 /* Boots4.jpeg */; };
-		AE2CE8B2237DCAF3005E8FB1 /* Gloves1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE89A237DCAF3005E8FB1 /* Gloves1.jpeg */; };
-		AE2CE8B3237DCAF3005E8FB1 /* Gloves6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE89B237DCAF3005E8FB1 /* Gloves6.jpeg */; };
-		AE2CE8B4237DCAF3005E8FB1 /* Gloves4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE89C237DCAF3005E8FB1 /* Gloves4.jpeg */; };
-		AE2CE8B5237DCAF3005E8FB1 /* Gloves5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE89D237DCAF3005E8FB1 /* Gloves5.jpeg */; };
-		AE2CE8B6237DCAF3005E8FB1 /* Gloves2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE89E237DCAF3005E8FB1 /* Gloves2.jpeg */; };
-		AE2CE8B7237DCAF3005E8FB1 /* Gloves3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE89F237DCAF3005E8FB1 /* Gloves3.jpeg */; };
 		AE2CE8B9237DCB1B005E8FB1 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2CE8B8237DCB1B005E8FB1 /* FileManager.swift */; };
 		AE2CE8C9237DD5C8005E8FB1 /* ProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AE2CE8C6237DD5C7005E8FB1 /* ProgressHUD.bundle */; };
 		AE2CE8CA237DD5C8005E8FB1 /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2CE8C8237DD5C8005E8FB1 /* ProgressHUD.m */; };
@@ -124,15 +124,15 @@
 		AEF426582378178F00799AB4 /* CoachDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF426572378178F00799AB4 /* CoachDetailsTableViewCell.swift */; };
 		AEF4265A23781E5200799AB4 /* AddTransformationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF4265923781E5200799AB4 /* AddTransformationDetailsVC.swift */; };
 		FA35A32B237DB901001FBEB6 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A32A237DB901001FBEB6 /* UICollectionViewCell+Extension.swift */; };
+		FA35A336237DD57D001FBEB6 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A331237DD57D001FBEB6 /* TransitionManager.swift */; };
+		FA35A337237DD57D001FBEB6 /* SwitchLayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A332237DD57D001FBEB6 /* SwitchLayoutButton.swift */; };
+		FA35A338237DD57D001FBEB6 /* TransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A333237DD57D001FBEB6 /* TransitionLayout.swift */; };
+		FA35A339237DD57D001FBEB6 /* DisplaySwitchLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A334237DD57D001FBEB6 /* DisplaySwitchLayout.swift */; };
+		FA35A33A237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A335237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift */; };
 		FA6A8C13237E6FE1005E85B4 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8C12237E6FE1005E85B4 /* UIColor+Extensions.swift */; };
 		FA6A8C15237E82A4005E85B4 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8C14237E82A4005E85B4 /* AppUserDefaults.swift */; };
 		FA6A8C17237E8D5E005E85B4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8C16237E8D5E005E85B4 /* NetworkHelper.swift */; };
 		FA6A8C19237E8E5A005E85B4 /* daxko-fit-product.json in Resources */ = {isa = PBXBuildFile; fileRef = FA6A8C18237E8E5A005E85B4 /* daxko-fit-product.json */; };
-		FA6C8865237EB28C008B33DF /* SwitchLayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C8860237EB28C008B33DF /* SwitchLayoutButton.swift */; };
-		FA6C8866237EB28C008B33DF /* TransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C8861237EB28C008B33DF /* TransitionLayout.swift */; };
-		FA6C8867237EB28C008B33DF /* DisplaySwitchLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C8862237EB28C008B33DF /* DisplaySwitchLayout.swift */; };
-		FA6C8868237EB28C008B33DF /* DisplaySwitchLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C8863237EB28C008B33DF /* DisplaySwitchLayoutAttributes.swift */; };
-		FA6C8869237EB28C008B33DF /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C8864237EB28C008B33DF /* TransitionManager.swift */; };
 		FA7D93B7237D30F400D4DED3 /* FitShopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D93B6237D30F400D4DED3 /* FitShopDetails.swift */; };
 		FAB722F7237D64F4008B6D4E /* FitShopListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB722F5237D64F4008B6D4E /* FitShopListCell.swift */; };
 		FAB722F8237D64F4008B6D4E /* FitShopListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB722F6237D64F4008B6D4E /* FitShopListCell.xib */; };
@@ -161,34 +161,34 @@
 		42323CD3FF22EFAB2B631B72 /* Pods-Daxko_FitSectionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxko_FitSectionUITests.release.xcconfig"; path = "Target Support Files/Pods-Daxko_FitSectionUITests/Pods-Daxko_FitSectionUITests.release.xcconfig"; sourceTree = "<group>"; };
 		58AAECCADB47BE26D64ADCC3 /* Pods-Daxko_FitSection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxko_FitSection.debug.xcconfig"; path = "Target Support Files/Pods-Daxko_FitSection/Pods-Daxko_FitSection.debug.xcconfig"; sourceTree = "<group>"; };
 		8B2C80F44C52507F2DA2BA2A /* Pods-Daxko_FitSectionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Daxko_FitSectionTests.release.xcconfig"; path = "Target Support Files/Pods-Daxko_FitSectionTests/Pods-Daxko_FitSectionTests.release.xcconfig"; sourceTree = "<group>"; };
+		AE17A532237EB5CE00E7119E /* Hoodie5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie5.jpeg; sourceTree = "<group>"; };
+		AE17A533237EB5CE00E7119E /* Hoodie4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie4.jpeg; sourceTree = "<group>"; };
+		AE17A534237EB5CE00E7119E /* Hoodie3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie3.jpeg; sourceTree = "<group>"; };
+		AE17A535237EB5CE00E7119E /* Hoodie2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie2.jpeg; sourceTree = "<group>"; };
+		AE17A536237EB5CE00E7119E /* Hoodie1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie1.jpeg; sourceTree = "<group>"; };
+		AE17A537237EB5CE00E7119E /* Hoodie6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie6.jpeg; sourceTree = "<group>"; };
+		AE17A539237EB5CE00E7119E /* Boots7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots7.jpeg; sourceTree = "<group>"; };
+		AE17A53A237EB5CE00E7119E /* Boots6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots6.jpeg; sourceTree = "<group>"; };
+		AE17A53B237EB5CF00E7119E /* Boots1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots1.jpeg; sourceTree = "<group>"; };
+		AE17A53C237EB5CF00E7119E /* Boots3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots3.jpeg; sourceTree = "<group>"; };
+		AE17A53D237EB5CF00E7119E /* Boots2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots2.jpeg; sourceTree = "<group>"; };
+		AE17A53E237EB5CF00E7119E /* Boots5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots5.jpeg; sourceTree = "<group>"; };
+		AE17A53F237EB5CF00E7119E /* Boots4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots4.jpeg; sourceTree = "<group>"; };
+		AE17A541237EB5CF00E7119E /* Gloves1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves1.jpeg; sourceTree = "<group>"; };
+		AE17A542237EB5CF00E7119E /* Gloves6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves6.jpeg; sourceTree = "<group>"; };
+		AE17A543237EB5CF00E7119E /* Gloves4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves4.jpeg; sourceTree = "<group>"; };
+		AE17A544237EB5CF00E7119E /* Gloves5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves5.jpeg; sourceTree = "<group>"; };
+		AE17A545237EB5CF00E7119E /* Gloves2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves2.jpeg; sourceTree = "<group>"; };
+		AE17A546237EB5CF00E7119E /* Gloves3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves3.jpeg; sourceTree = "<group>"; };
+		AE17A548237EB5CF00E7119E /* Bindings1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings1.jpeg; sourceTree = "<group>"; };
+		AE17A549237EB5CF00E7119E /* Bindings5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings5.jpeg; sourceTree = "<group>"; };
+		AE17A54A237EB5CF00E7119E /* Bindings4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings4.jpeg; sourceTree = "<group>"; };
+		AE17A54B237EB5CF00E7119E /* Bindings3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings3.jpeg; sourceTree = "<group>"; };
+		AE17A54C237EB5CF00E7119E /* Bindings2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings2.jpeg; sourceTree = "<group>"; };
 		AE182AE92377F3B50085337D /* NutritionistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionistVC.swift; sourceTree = "<group>"; };
 		AE2CE87D237DC5B7005E8FB1 /* PhotoBrowseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoBrowseVC.swift; sourceTree = "<group>"; };
 		AE2CE87F237DCA3B005E8FB1 /* CollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCell.xib; sourceTree = "<group>"; };
 		AE2CE881237DCA4B005E8FB1 /* CollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
-		AE2CE885237DCAF3005E8FB1 /* Bindings1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings1.jpeg; sourceTree = "<group>"; };
-		AE2CE886237DCAF3005E8FB1 /* Bindings5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings5.jpeg; sourceTree = "<group>"; };
-		AE2CE887237DCAF3005E8FB1 /* Bindings4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings4.jpeg; sourceTree = "<group>"; };
-		AE2CE888237DCAF3005E8FB1 /* Bindings3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings3.jpeg; sourceTree = "<group>"; };
-		AE2CE889237DCAF3005E8FB1 /* Bindings2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bindings2.jpeg; sourceTree = "<group>"; };
-		AE2CE88B237DCAF3005E8FB1 /* Hoodie5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie5.jpeg; sourceTree = "<group>"; };
-		AE2CE88C237DCAF3005E8FB1 /* Hoodie4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie4.jpeg; sourceTree = "<group>"; };
-		AE2CE88D237DCAF3005E8FB1 /* Hoodie3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie3.jpeg; sourceTree = "<group>"; };
-		AE2CE88E237DCAF3005E8FB1 /* Hoodie2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie2.jpeg; sourceTree = "<group>"; };
-		AE2CE88F237DCAF3005E8FB1 /* Hoodie1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie1.jpeg; sourceTree = "<group>"; };
-		AE2CE890237DCAF3005E8FB1 /* Hoodie6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hoodie6.jpeg; sourceTree = "<group>"; };
-		AE2CE892237DCAF3005E8FB1 /* Boots7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots7.jpeg; sourceTree = "<group>"; };
-		AE2CE893237DCAF3005E8FB1 /* Boots6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots6.jpeg; sourceTree = "<group>"; };
-		AE2CE894237DCAF3005E8FB1 /* Boots1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots1.jpeg; sourceTree = "<group>"; };
-		AE2CE895237DCAF3005E8FB1 /* Boots3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots3.jpeg; sourceTree = "<group>"; };
-		AE2CE896237DCAF3005E8FB1 /* Boots2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots2.jpeg; sourceTree = "<group>"; };
-		AE2CE897237DCAF3005E8FB1 /* Boots5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots5.jpeg; sourceTree = "<group>"; };
-		AE2CE898237DCAF3005E8FB1 /* Boots4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Boots4.jpeg; sourceTree = "<group>"; };
-		AE2CE89A237DCAF3005E8FB1 /* Gloves1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves1.jpeg; sourceTree = "<group>"; };
-		AE2CE89B237DCAF3005E8FB1 /* Gloves6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves6.jpeg; sourceTree = "<group>"; };
-		AE2CE89C237DCAF3005E8FB1 /* Gloves4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves4.jpeg; sourceTree = "<group>"; };
-		AE2CE89D237DCAF3005E8FB1 /* Gloves5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves5.jpeg; sourceTree = "<group>"; };
-		AE2CE89E237DCAF3005E8FB1 /* Gloves2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves2.jpeg; sourceTree = "<group>"; };
-		AE2CE89F237DCAF3005E8FB1 /* Gloves3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gloves3.jpeg; sourceTree = "<group>"; };
 		AE2CE8B8237DCB1B005E8FB1 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 		AE2CE8C3237DD5BD005E8FB1 /* Daxko_FitSection-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Daxko_FitSection-Bridging-Header.h"; sourceTree = "<group>"; };
 		AE2CE8C6237DD5C7005E8FB1 /* ProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ProgressHUD.bundle; sourceTree = "<group>"; };
@@ -287,15 +287,15 @@
 		EA4FCB9D2ABBD2AFA2B75DA7 /* Pods_Daxko_FitSection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daxko_FitSection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DDBF35FE8B0D4500C16F37 /* Pods_Daxko_FitSectionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Daxko_FitSectionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA35A32A237DB901001FBEB6 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		FA35A331237DD57D001FBEB6 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		FA35A332237DD57D001FBEB6 /* SwitchLayoutButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchLayoutButton.swift; sourceTree = "<group>"; };
+		FA35A333237DD57D001FBEB6 /* TransitionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionLayout.swift; sourceTree = "<group>"; };
+		FA35A334237DD57D001FBEB6 /* DisplaySwitchLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySwitchLayout.swift; sourceTree = "<group>"; };
+		FA35A335237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySwitchLayoutAttributes.swift; sourceTree = "<group>"; };
 		FA6A8C12237E6FE1005E85B4 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		FA6A8C14237E82A4005E85B4 /* AppUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
 		FA6A8C16237E8D5E005E85B4 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		FA6A8C18237E8E5A005E85B4 /* daxko-fit-product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "daxko-fit-product.json"; sourceTree = "<group>"; };
-		FA6C8860237EB28C008B33DF /* SwitchLayoutButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchLayoutButton.swift; sourceTree = "<group>"; };
-		FA6C8861237EB28C008B33DF /* TransitionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionLayout.swift; sourceTree = "<group>"; };
-		FA6C8862237EB28C008B33DF /* DisplaySwitchLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySwitchLayout.swift; sourceTree = "<group>"; };
-		FA6C8863237EB28C008B33DF /* DisplaySwitchLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySwitchLayoutAttributes.swift; sourceTree = "<group>"; };
-		FA6C8864237EB28C008B33DF /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
 		FA7D93B6237D30F400D4DED3 /* FitShopDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitShopDetails.swift; sourceTree = "<group>"; };
 		FAB722F5237D64F4008B6D4E /* FitShopListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitShopListCell.swift; sourceTree = "<group>"; };
 		FAB722F6237D64F4008B6D4E /* FitShopListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FitShopListCell.xib; sourceTree = "<group>"; };
@@ -352,6 +352,81 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		AE17A52F237EB0A800E7119E /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				FA35A331237DD57D001FBEB6 /* TransitionManager.swift */,
+				FA35A333237DD57D001FBEB6 /* TransitionLayout.swift */,
+				FA35A334237DD57D001FBEB6 /* DisplaySwitchLayout.swift */,
+				FA35A332237DD57D001FBEB6 /* SwitchLayoutButton.swift */,
+				FA35A335237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		AE17A530237EB5BC00E7119E /* Add Photos Images */ = {
+			isa = PBXGroup;
+			children = (
+				AE17A547237EB5CF00E7119E /* Bindings */,
+				AE17A538237EB5CE00E7119E /* Boots */,
+				AE17A540237EB5CF00E7119E /* Gloves */,
+				AE17A531237EB5CE00E7119E /* Hoodie */,
+			);
+			path = "Add Photos Images";
+			sourceTree = "<group>";
+		};
+		AE17A531237EB5CE00E7119E /* Hoodie */ = {
+			isa = PBXGroup;
+			children = (
+				AE17A532237EB5CE00E7119E /* Hoodie5.jpeg */,
+				AE17A533237EB5CE00E7119E /* Hoodie4.jpeg */,
+				AE17A534237EB5CE00E7119E /* Hoodie3.jpeg */,
+				AE17A535237EB5CE00E7119E /* Hoodie2.jpeg */,
+				AE17A536237EB5CE00E7119E /* Hoodie1.jpeg */,
+				AE17A537237EB5CE00E7119E /* Hoodie6.jpeg */,
+			);
+			path = Hoodie;
+			sourceTree = "<group>";
+		};
+		AE17A538237EB5CE00E7119E /* Boots */ = {
+			isa = PBXGroup;
+			children = (
+				AE17A539237EB5CE00E7119E /* Boots7.jpeg */,
+				AE17A53A237EB5CE00E7119E /* Boots6.jpeg */,
+				AE17A53B237EB5CF00E7119E /* Boots1.jpeg */,
+				AE17A53C237EB5CF00E7119E /* Boots3.jpeg */,
+				AE17A53D237EB5CF00E7119E /* Boots2.jpeg */,
+				AE17A53E237EB5CF00E7119E /* Boots5.jpeg */,
+				AE17A53F237EB5CF00E7119E /* Boots4.jpeg */,
+			);
+			path = Boots;
+			sourceTree = "<group>";
+		};
+		AE17A540237EB5CF00E7119E /* Gloves */ = {
+			isa = PBXGroup;
+			children = (
+				AE17A541237EB5CF00E7119E /* Gloves1.jpeg */,
+				AE17A542237EB5CF00E7119E /* Gloves6.jpeg */,
+				AE17A543237EB5CF00E7119E /* Gloves4.jpeg */,
+				AE17A544237EB5CF00E7119E /* Gloves5.jpeg */,
+				AE17A545237EB5CF00E7119E /* Gloves2.jpeg */,
+				AE17A546237EB5CF00E7119E /* Gloves3.jpeg */,
+			);
+			path = Gloves;
+			sourceTree = "<group>";
+		};
+		AE17A547237EB5CF00E7119E /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				AE17A548237EB5CF00E7119E /* Bindings1.jpeg */,
+				AE17A549237EB5CF00E7119E /* Bindings5.jpeg */,
+				AE17A54A237EB5CF00E7119E /* Bindings4.jpeg */,
+				AE17A54B237EB5CF00E7119E /* Bindings3.jpeg */,
+				AE17A54C237EB5CF00E7119E /* Bindings2.jpeg */,
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
 		AE182AE72377F37C0085337D /* Trainer */ = {
 			isa = PBXGroup;
 			children = (
@@ -367,73 +442,6 @@
 				AE182AE92377F3B50085337D /* NutritionistVC.swift */,
 			);
 			path = Nutritionist;
-			sourceTree = "<group>";
-		};
-		AE2CE883237DCAAE005E8FB1 /* Add Photos Images */ = {
-			isa = PBXGroup;
-			children = (
-				AE2CE884237DCAF3005E8FB1 /* Bindings */,
-				AE2CE891237DCAF3005E8FB1 /* Boots */,
-				AE2CE899237DCAF3005E8FB1 /* Gloves */,
-				AE2CE88A237DCAF3005E8FB1 /* Hoodie */,
-			);
-			path = "Add Photos Images";
-			sourceTree = "<group>";
-		};
-		AE2CE884237DCAF3005E8FB1 /* Bindings */ = {
-			isa = PBXGroup;
-			children = (
-				AE2CE885237DCAF3005E8FB1 /* Bindings1.jpeg */,
-				AE2CE886237DCAF3005E8FB1 /* Bindings5.jpeg */,
-				AE2CE887237DCAF3005E8FB1 /* Bindings4.jpeg */,
-				AE2CE888237DCAF3005E8FB1 /* Bindings3.jpeg */,
-				AE2CE889237DCAF3005E8FB1 /* Bindings2.jpeg */,
-			);
-			name = Bindings;
-			path = "../../../../../Downloads/gliding-collection-master/GlidingCollectionDemo/Images/Bindings";
-			sourceTree = "<group>";
-		};
-		AE2CE88A237DCAF3005E8FB1 /* Hoodie */ = {
-			isa = PBXGroup;
-			children = (
-				AE2CE88B237DCAF3005E8FB1 /* Hoodie5.jpeg */,
-				AE2CE88C237DCAF3005E8FB1 /* Hoodie4.jpeg */,
-				AE2CE88D237DCAF3005E8FB1 /* Hoodie3.jpeg */,
-				AE2CE88E237DCAF3005E8FB1 /* Hoodie2.jpeg */,
-				AE2CE88F237DCAF3005E8FB1 /* Hoodie1.jpeg */,
-				AE2CE890237DCAF3005E8FB1 /* Hoodie6.jpeg */,
-			);
-			name = Hoodie;
-			path = "../../../../../Downloads/gliding-collection-master/GlidingCollectionDemo/Images/Hoodie";
-			sourceTree = "<group>";
-		};
-		AE2CE891237DCAF3005E8FB1 /* Boots */ = {
-			isa = PBXGroup;
-			children = (
-				AE2CE892237DCAF3005E8FB1 /* Boots7.jpeg */,
-				AE2CE893237DCAF3005E8FB1 /* Boots6.jpeg */,
-				AE2CE894237DCAF3005E8FB1 /* Boots1.jpeg */,
-				AE2CE895237DCAF3005E8FB1 /* Boots3.jpeg */,
-				AE2CE896237DCAF3005E8FB1 /* Boots2.jpeg */,
-				AE2CE897237DCAF3005E8FB1 /* Boots5.jpeg */,
-				AE2CE898237DCAF3005E8FB1 /* Boots4.jpeg */,
-			);
-			name = Boots;
-			path = "../../../../../Downloads/gliding-collection-master/GlidingCollectionDemo/Images/Boots";
-			sourceTree = "<group>";
-		};
-		AE2CE899237DCAF3005E8FB1 /* Gloves */ = {
-			isa = PBXGroup;
-			children = (
-				AE2CE89A237DCAF3005E8FB1 /* Gloves1.jpeg */,
-				AE2CE89B237DCAF3005E8FB1 /* Gloves6.jpeg */,
-				AE2CE89C237DCAF3005E8FB1 /* Gloves4.jpeg */,
-				AE2CE89D237DCAF3005E8FB1 /* Gloves5.jpeg */,
-				AE2CE89E237DCAF3005E8FB1 /* Gloves2.jpeg */,
-				AE2CE89F237DCAF3005E8FB1 /* Gloves3.jpeg */,
-			);
-			name = Gloves;
-			path = "../../../../../Downloads/gliding-collection-master/GlidingCollectionDemo/Images/Gloves";
 			sourceTree = "<group>";
 		};
 		AE2CE8BA237DCFB4005E8FB1 /* Progress Photo */ = {
@@ -806,7 +814,7 @@
 		AEAE078E2375F76E00EDA433 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				FA6C886A237EB29C008B33DF /* FitShopCustomTransition */,
+				FA6A8C16237E8D5E005E85B4 /* NetworkHelper.swift */,
 				AE2CE8BD237DD590005E8FB1 /* ProgressHUD */,
 				AE2CE8BB237DCFCC005E8FB1 /* FIleManager */,
 				AE9C4206237C3FC700211706 /* Drop Down */,
@@ -814,7 +822,6 @@
 				AEAE078F2375F78700EDA433 /* Date Picker */,
 				AEECCDA0237574F900FA2C6F /* SelectionMenuLauncher */,
 				AEECCDA723758C3100FA2C6F /* Extensions */,
-				FA6A8C16237E8D5E005E85B4 /* NetworkHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -853,7 +860,7 @@
 				AEBD13DD23744A4A003AF2B2 /* Products */,
 				511C3E59FEBF643AAEB7E1C5 /* Pods */,
 				28C0AD98CFF3EF651790169A /* Frameworks */,
-				FA6C8853237EAA0C008B33DF /* Recovered References */,
+				AE17A52F237EB0A800E7119E /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -870,7 +877,7 @@
 		AEBD13DE23744A4B003AF2B2 /* Daxko_FitSection */ = {
 			isa = PBXGroup;
 			children = (
-				AE2CE883237DCAAE005E8FB1 /* Add Photos Images */,
+				AE17A530237EB5BC00E7119E /* Add Photos Images */,
 				AEECCD77237541B100FA2C6F /* App Files */,
 				AEAE078E2375F76E00EDA433 /* Helper */,
 				AEECCD94237558D300FA2C6F /* TableView Cell */,
@@ -1221,25 +1228,6 @@
 			path = "Add Transformation";
 			sourceTree = "<group>";
 		};
-		FA6C8853237EAA0C008B33DF /* Recovered References */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Recovered References";
-			sourceTree = "<group>";
-		};
-		FA6C886A237EB29C008B33DF /* FitShopCustomTransition */ = {
-			isa = PBXGroup;
-			children = (
-				FA6C8862237EB28C008B33DF /* DisplaySwitchLayout.swift */,
-				FA6C8863237EB28C008B33DF /* DisplaySwitchLayoutAttributes.swift */,
-				FA6C8860237EB28C008B33DF /* SwitchLayoutButton.swift */,
-				FA6C8861237EB28C008B33DF /* TransitionLayout.swift */,
-				FA6C8864237EB28C008B33DF /* TransitionManager.swift */,
-			);
-			path = FitShopCustomTransition;
-			sourceTree = "<group>";
-		};
 		FA7D93B5237D30F400D4DED3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -1375,45 +1363,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2CE8A2237DCAF3005E8FB1 /* Bindings4.jpeg in Resources */,
-				AE2CE8AA237DCAF3005E8FB1 /* Hoodie6.jpeg in Resources */,
-				AE2CE8B2237DCAF3005E8FB1 /* Gloves1.jpeg in Resources */,
-				AE2CE8B7237DCAF3005E8FB1 /* Gloves3.jpeg in Resources */,
-				AE2CE8B4237DCAF3005E8FB1 /* Gloves4.jpeg in Resources */,
+				AE17A55B237EB5CF00E7119E /* Gloves6.jpeg in Resources */,
+				AE17A561237EB5CF00E7119E /* Bindings5.jpeg in Resources */,
 				AEF4265123780BC100799AB4 /* Nutritinoist.storyboard in Resources */,
-				AE2CE8A6237DCAF3005E8FB1 /* Hoodie4.jpeg in Resources */,
-				AE2CE8B0237DCAF3005E8FB1 /* Boots5.jpeg in Resources */,
-				AE2CE8B3237DCAF3005E8FB1 /* Gloves6.jpeg in Resources */,
-				AE2CE8A1237DCAF3005E8FB1 /* Bindings5.jpeg in Resources */,
-				AE2CE8AB237DCAF3005E8FB1 /* Boots7.jpeg in Resources */,
-				AE2CE8A3237DCAF3005E8FB1 /* Bindings3.jpeg in Resources */,
 				AE2CE8C9237DD5C8005E8FB1 /* ProgressHUD.bundle in Resources */,
+				AE17A557237EB5CF00E7119E /* Boots2.jpeg in Resources */,
+				AE17A550237EB5CF00E7119E /* Hoodie2.jpeg in Resources */,
+				AE17A55D237EB5CF00E7119E /* Gloves5.jpeg in Resources */,
 				AEBD13EC23744A4C003AF2B2 /* LaunchScreen.storyboard in Resources */,
-				AE2CE8A5237DCAF3005E8FB1 /* Hoodie5.jpeg in Resources */,
-				AE2CE8AD237DCAF3005E8FB1 /* Boots1.jpeg in Resources */,
 				AEECCD892375444400FA2C6F /* Recipies.storyboard in Resources */,
+				AE17A563237EB5CF00E7119E /* Bindings3.jpeg in Resources */,
+				AE17A554237EB5CF00E7119E /* Boots6.jpeg in Resources */,
+				AE17A551237EB5CF00E7119E /* Hoodie1.jpeg in Resources */,
 				AE2CE880237DCA3B005E8FB1 /* CollectionCell.xib in Resources */,
+				AE17A556237EB5CF00E7119E /* Boots3.jpeg in Resources */,
+				AE17A54F237EB5CF00E7119E /* Hoodie3.jpeg in Resources */,
 				AEBD13E923744A4C003AF2B2 /* Assets.xcassets in Resources */,
-				AE2CE8AC237DCAF3005E8FB1 /* Boots6.jpeg in Resources */,
 				AEA28EC323797CE1004F5F52 /* Events.storyboard in Resources */,
 				FAB722F8237D64F4008B6D4E /* FitShopListCell.xib in Resources */,
+				AE17A558237EB5CF00E7119E /* Boots5.jpeg in Resources */,
+				AE17A54E237EB5CF00E7119E /* Hoodie4.jpeg in Resources */,
 				AE929B982374604A0030D3EC /* Podfile in Resources */,
 				AEBD13E723744A4B003AF2B2 /* Main.storyboard in Resources */,
-				AE2CE8A0237DCAF3005E8FB1 /* Bindings1.jpeg in Resources */,
+				AE17A55A237EB5CF00E7119E /* Gloves1.jpeg in Resources */,
+				AE17A55E237EB5CF00E7119E /* Gloves2.jpeg in Resources */,
+				AE17A552237EB5CF00E7119E /* Hoodie6.jpeg in Resources */,
 				AEECCD762375419500FA2C6F /* FitShop.storyboard in Resources */,
 				FA6A8C19237E8E5A005E85B4 /* daxko-fit-product.json in Resources */,
-				AE2CE8A7237DCAF3005E8FB1 /* Hoodie3.jpeg in Resources */,
+				AE17A560237EB5CF00E7119E /* Bindings1.jpeg in Resources */,
+				AE17A564237EB5CF00E7119E /* Bindings2.jpeg in Resources */,
+				AE17A55C237EB5CF00E7119E /* Gloves4.jpeg in Resources */,
 				AEECCD7D2375438B00FA2C6F /* Trainer.storyboard in Resources */,
-				AE2CE8B6237DCAF3005E8FB1 /* Gloves2.jpeg in Resources */,
-				AE2CE8A8237DCAF3005E8FB1 /* Hoodie2.jpeg in Resources */,
+				AE17A54D237EB5CF00E7119E /* Hoodie5.jpeg in Resources */,
+				AE17A553237EB5CF00E7119E /* Boots7.jpeg in Resources */,
+				AE17A55F237EB5CF00E7119E /* Gloves3.jpeg in Resources */,
 				AEECCD8A2375444400FA2C6F /* Measurements.storyboard in Resources */,
-				AE2CE8A9237DCAF3005E8FB1 /* Hoodie1.jpeg in Resources */,
-				AE2CE8AF237DCAF3005E8FB1 /* Boots2.jpeg in Resources */,
-				AE2CE8B5237DCAF3005E8FB1 /* Gloves5.jpeg in Resources */,
-				AE2CE8B1237DCAF3005E8FB1 /* Boots4.jpeg in Resources */,
-				AE2CE8A4237DCAF3005E8FB1 /* Bindings2.jpeg in Resources */,
 				AEECCD8B2375444400FA2C6F /* Transformation.storyboard in Resources */,
-				AE2CE8AE237DCAF3005E8FB1 /* Boots3.jpeg in Resources */,
+				AE17A562237EB5CF00E7119E /* Bindings4.jpeg in Resources */,
+				AE17A559237EB5CF00E7119E /* Boots4.jpeg in Resources */,
+				AE17A555237EB5CF00E7119E /* Boots1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1546,11 +1534,13 @@
 				AEECCD7F237543A600FA2C6F /* TrainerVC.swift in Sources */,
 				AE2CE87E237DC5B7005E8FB1 /* PhotoBrowseVC.swift in Sources */,
 				AEECCDBA23759D1800FA2C6F /* RecipieListCollectionViewCell.swift in Sources */,
+				FA35A336237DD57D001FBEB6 /* TransitionManager.swift in Sources */,
 				AEA28EAC23795FF9004F5F52 /* UIColor+colorFromHex.swift in Sources */,
 				AEECCD7B2375423400FA2C6F /* FitShopVC.swift in Sources */,
 				AE6F79C123789CFD00A2EA90 /* GraphPointAnimation.swift in Sources */,
 				AE6F79B523789CFD00A2EA90 /* BarDrawingLayer.swift in Sources */,
 				FA6A8C15237E82A4005E85B4 /* AppUserDefaults.swift in Sources */,
+				FA35A338237DD57D001FBEB6 /* TransitionLayout.swift in Sources */,
 				AEA28EB0237966BB004F5F52 /* TrackProgressVC+Extensions.swift in Sources */,
 				AEBD1411237450C8003AF2B2 /* FitHomeCollectionViewCell.swift in Sources */,
 				AE7844CE237A9CFD00D8A4E0 /* EventsListTableViewCell.swift in Sources */,
@@ -1559,20 +1549,17 @@
 				AEAE079B237603B400EDA433 /* TransformationTableViewCell.swift in Sources */,
 				FA7D93B7237D30F400D4DED3 /* FitShopDetails.swift in Sources */,
 				AE6F798823786BEF00A2EA90 /* FitShopTableViewCell.swift in Sources */,
-				FA6C8867237EB28C008B33DF /* DisplaySwitchLayout.swift in Sources */,
 				AE3065212377FC4100CF1A60 /* NutrinoistCollectionViewCell.swift in Sources */,
 				FAB722F7237D64F4008B6D4E /* FitShopListCell.swift in Sources */,
 				AEAE079E23760AF100EDA433 /* TrainerCollectionViewCell.swift in Sources */,
 				AEECCD9923755A0600FA2C6F /* MoreRecipiesCollectionViewCell.swift in Sources */,
 				AEF426582378178F00799AB4 /* CoachDetailsTableViewCell.swift in Sources */,
-				FA6C8869237EB28C008B33DF /* TransitionManager.swift in Sources */,
 				AEBD13E023744A4B003AF2B2 /* AppDelegate.swift in Sources */,
 				AE6F79C323789CFD00A2EA90 /* Plot.swift in Sources */,
-				FA6C8868237EB28C008B33DF /* DisplaySwitchLayoutAttributes.swift in Sources */,
 				AE2CE8CA237DD5C8005E8FB1 /* ProgressHUD.m in Sources */,
 				AEA28EA523795E56004F5F52 /* TrackProgressVC.swift in Sources */,
+				FA35A339237DD57D001FBEB6 /* DisplaySwitchLayout.swift in Sources */,
 				AE6F79B623789CFD00A2EA90 /* GradientDrawingLayer.swift in Sources */,
-				FA6C8865237EB28C008B33DF /* SwitchLayoutButton.swift in Sources */,
 				AE6F79BF23789CFD00A2EA90 /* LabelPool.swift in Sources */,
 				AE2CE882237DCA4B005E8FB1 /* CollectionCell.swift in Sources */,
 				AEA28EB623797563004F5F52 /* MyCartTableViewCell.swift in Sources */,
@@ -1587,7 +1574,9 @@
 				AEF42653237815BE00799AB4 /* CoachDetailsVC.swift in Sources */,
 				AEECCDC32375A22F00FA2C6F /* RecipieInfoTableViewCell.swift in Sources */,
 				FA6A8C13237E6FE1005E85B4 /* UIColor+Extensions.swift in Sources */,
+				FA35A337237DD57D001FBEB6 /* SwitchLayoutButton.swift in Sources */,
 				AEECCDB02375916000FA2C6F /* RecipieDescriptionTableViewCell.swift in Sources */,
+				FA35A33A237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift in Sources */,
 				AEECCDB5237595E100FA2C6F /* RecipieIngredientsTableViewCell.swift in Sources */,
 				AEECCDA623758AB800FA2C6F /* AddRecipieVC.swift in Sources */,
 				AE6F79C023789CFD00A2EA90 /* BarPlot.swift in Sources */,
@@ -1607,7 +1596,6 @@
 				AE6F79C223789CFD00A2EA90 /* GraphPoint.swift in Sources */,
 				AEBD13E223744A4B003AF2B2 /* SceneDelegate.swift in Sources */,
 				AE6F79B423789CFD00A2EA90 /* ReferenceLineDrawingView.swift in Sources */,
-				FA6C8866237EB28C008B33DF /* TransitionLayout.swift in Sources */,
 				AE67B662237D522500007876 /* AddDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
