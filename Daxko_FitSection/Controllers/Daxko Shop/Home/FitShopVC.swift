@@ -17,6 +17,7 @@ class FitShopVC: UIViewController {
     @IBOutlet weak var dropDownTextFld: DropDown!
     @IBOutlet weak var shopCollectionView: UICollectionView!
     @IBOutlet weak var filterOptionView: UIView!
+    @IBOutlet weak var listGridToggleBtn: UIButton!
     
     private let listLayoutStaticCellHeight: CGFloat = 130.0
     private let gridLayoutStaticCellHeight: CGFloat = 220.0
@@ -25,8 +26,8 @@ class FitShopVC: UIViewController {
 
     private lazy var gridLayout = DisplaySwitchLayout(staticCellHeight: gridLayoutStaticCellHeight, nextLayoutStaticCellHeight: listLayoutStaticCellHeight, layoutState: .grid)
     
-    private var layoutState: LayoutState = .grid
-   
+    private lazy var layoutState: LayoutState = AppUserDefaults.getFitShopLayoutStyle(forKey: .fitShopLayoutStyle, fallBackValue: .grid)
+    
 
     lazy var fitShopDetails = [
         FitShopDetails(shopName: "American", price: 1700),
@@ -89,10 +90,16 @@ class FitShopVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
                             
-   
+      
         registerXib()
         setData()
-        shopCollectionView.collectionViewLayout = gridLayout
+        listGridToggleBtn.setImage(layoutState.icon, for: .normal)
+        if layoutState == .grid {
+            shopCollectionView.collectionViewLayout = gridLayout
+        } else {
+            shopCollectionView.collectionViewLayout = listLayout
+        }
+        
         
     }
     
@@ -215,6 +222,8 @@ class FitShopVC: UIViewController {
             layoutState = .list
             transitionManager = TransitionManager(duration: animationDuration, collectionView: shopCollectionView, destinationLayout: listLayout, layoutState: layoutState)
         }
+         listGridToggleBtn.setImage(layoutState.icon, for: .normal)
+        AppUserDefaults.save(value: layoutState.rawValue, forKey: .fitShopLayoutStyle)
         transitionManager.startInteractiveTransition()
        // rotationButton.selected = layoutState == .list
        // rotationButton.animationDuration = animationDuration

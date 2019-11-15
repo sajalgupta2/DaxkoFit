@@ -4,23 +4,27 @@ PODS:
   - SDWebImage (5.3.0):
     - SDWebImage/Core (= 5.3.0)
   - SDWebImage/Core (5.3.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - JJFloatingActionButton
   - MXParallaxHeader
   - SDWebImage
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - JJFloatingActionButton
     - MXParallaxHeader
     - SDWebImage
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   JJFloatingActionButton: 26805f87c7e9f68c6a91bd9f3f09c2e6b904a84f
   MXParallaxHeader: a95e0af1f485b1b718a6939f583f0dbae6992c41
   SDWebImage: f1afa74b86587c2c63f4e80dfd39b21e3c17b45b
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 4497194b788706ebe392d7cc2e0dbe14dd07a143
+PODFILE CHECKSUM: a4b5ca3780fcdcd010ba659a2953682d44aeb0ca
 
 COCOAPODS: 1.8.4

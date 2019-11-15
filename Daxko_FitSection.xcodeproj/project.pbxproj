@@ -100,6 +100,8 @@
 		FA35A33A237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA35A335237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift */; };
 		FA6A8C13237E6FE1005E85B4 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8C12237E6FE1005E85B4 /* UIColor+Extensions.swift */; };
 		FA6A8C15237E82A4005E85B4 /* AppUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8C14237E82A4005E85B4 /* AppUserDefaults.swift */; };
+		FA6A8C17237E8D5E005E85B4 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6A8C16237E8D5E005E85B4 /* NetworkHelper.swift */; };
+		FA6A8C19237E8E5A005E85B4 /* daxko-fit-product.json in Resources */ = {isa = PBXBuildFile; fileRef = FA6A8C18237E8E5A005E85B4 /* daxko-fit-product.json */; };
 		FA7D93B7237D30F400D4DED3 /* FitShopDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D93B6237D30F400D4DED3 /* FitShopDetails.swift */; };
 		FAB722F7237D64F4008B6D4E /* FitShopListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB722F5237D64F4008B6D4E /* FitShopListCell.swift */; };
 		FAB722F8237D64F4008B6D4E /* FitShopListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAB722F6237D64F4008B6D4E /* FitShopListCell.xib */; };
@@ -228,6 +230,8 @@
 		FA35A335237DD57D001FBEB6 /* DisplaySwitchLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplaySwitchLayoutAttributes.swift; sourceTree = "<group>"; };
 		FA6A8C12237E6FE1005E85B4 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		FA6A8C14237E82A4005E85B4 /* AppUserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppUserDefaults.swift; sourceTree = "<group>"; };
+		FA6A8C16237E8D5E005E85B4 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		FA6A8C18237E8E5A005E85B4 /* daxko-fit-product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "daxko-fit-product.json"; sourceTree = "<group>"; };
 		FA7D93B6237D30F400D4DED3 /* FitShopDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FitShopDetails.swift; sourceTree = "<group>"; };
 		FAB722F5237D64F4008B6D4E /* FitShopListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitShopListCell.swift; sourceTree = "<group>"; };
 		FAB722F6237D64F4008B6D4E /* FitShopListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FitShopListCell.xib; sourceTree = "<group>"; };
@@ -623,6 +627,7 @@
 				AEAE078F2375F78700EDA433 /* Date Picker */,
 				AEECCDA0237574F900FA2C6F /* SelectionMenuLauncher */,
 				AEECCDA723758C3100FA2C6F /* Extensions */,
+				FA6A8C16237E8D5E005E85B4 /* NetworkHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -1041,6 +1046,7 @@
 		FA7D93B5237D30F400D4DED3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FA6A8C18237E8E5A005E85B4 /* daxko-fit-product.json */,
 				FA7D93B6237D30F400D4DED3 /* FitShopDetails.swift */,
 			);
 			path = Models;
@@ -1180,6 +1186,7 @@
 				AE929B982374604A0030D3EC /* Podfile in Resources */,
 				AEBD13E723744A4B003AF2B2 /* Main.storyboard in Resources */,
 				AEECCD762375419500FA2C6F /* FitShop.storyboard in Resources */,
+				FA6A8C19237E8E5A005E85B4 /* daxko-fit-product.json in Resources */,
 				AEECCD7D2375438B00FA2C6F /* Trainer.storyboard in Resources */,
 				AEECCD8A2375444400FA2C6F /* Measurements.storyboard in Resources */,
 				AEECCD8B2375444400FA2C6F /* Transformation.storyboard in Resources */,
@@ -1365,6 +1372,7 @@
 				AE6F79BC23789CFD00A2EA90 /* ScrollableGraphViewDrawingDelegate.swift in Sources */,
 				AEECCDBD23759D5300FA2C6F /* RecipieListVC.swift in Sources */,
 				AE6F798B2378855100A2EA90 /* PaymentVC.swift in Sources */,
+				FA6A8C17237E8D5E005E85B4 /* NetworkHelper.swift in Sources */,
 				AE6F79B723789CFD00A2EA90 /* DotDrawingLayer.swift in Sources */,
 				AEA28EAA23795E89004F5F52 /* TrackProgressTableViewCell.swift in Sources */,
 				AE9C4208237C3FF000211706 /* iOSDropDown.swift in Sources */,
