@@ -989,6 +989,9 @@ extension ScrollableGraphView : ScrollableGraphViewDataSource {
         }
     }
     
+    
+    
+    
     var linePlotData: [Double] {
         get {
             return self.generateRandomData(numberOfDisplayItems, max: 100, shouldIncludeOutliers: false)
