@@ -10,7 +10,15 @@ import UIKit
 
 class ShopCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var shopImageView: UIImageView!
+    @IBOutlet weak var bottomContainerView: UIView!
     @IBOutlet weak var itemName: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        shopImageView.backgroundColor = UIColor.cyanTheme
+    }
     
 }

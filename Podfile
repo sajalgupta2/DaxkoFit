@@ -7,6 +7,9 @@ use_frameworks!
 pod 'SDWebImage'
 pod 'JJFloatingActionButton'
 pod 'MXParallaxHeader'
+pod 'SwiftyJSON'
+pod 'Alamofire'
+#pod 'DisplaySwitcher'
 pod 'GlidingCollection'
 pod 'YPImagePicker'
 # Pods for Daxko_FitSection
