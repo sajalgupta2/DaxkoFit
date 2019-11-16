@@ -1,5 +1,5 @@
 PODS:
-  - Alamofire (4.9.1)
+  - Alamofire (5.0.0-rc.3)
   - GlidingCollection (2.1.0)
   - JJFloatingActionButton (2.1.0)
   - MXParallaxHeader (1.0.0)
@@ -8,18 +8,18 @@ PODS:
     - SDWebImage/Core (= 5.3.1)
   - SDWebImage/Core (5.3.1)
   - SteviaLayout (4.6.1)
-  - SwiftyJSON (5.0.0)
+  - SwiftyJSON (4.3.0)
   - YPImagePicker (4.1.2):
     - PryntTrimmerView (~> 4.0.0)
     - SteviaLayout (~> 4.6.0)
 
 DEPENDENCIES:
-  - Alamofire
+  - Alamofire (~> 5.0.0-rc.3)
   - GlidingCollection
   - JJFloatingActionButton
   - MXParallaxHeader
-  - SDWebImage
-  - SwiftyJSON
+  - SDWebImage (~> 5.0)
+  - SwiftyJSON (~> 4.0)
   - YPImagePicker
 
 SPEC REPOS:
@@ -35,16 +35,16 @@ SPEC REPOS:
     - YPImagePicker
 
 SPEC CHECKSUMS:
-  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
   GlidingCollection: a15dbd9ec1775c781453bc36e6104d0c9dec20fb
   JJFloatingActionButton: 26805f87c7e9f68c6a91bd9f3f09c2e6b904a84f
   MXParallaxHeader: a95e0af1f485b1b718a6939f583f0dbae6992c41
   PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
   SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
   SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
-  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
   YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad
 
-PODFILE CHECKSUM: d142417ab1e96a4c9823ed0fcd82a2e5e59cb099
+PODFILE CHECKSUM: eba13f6c12a378c02a45a0c62ae4918c3c45a798
 
 COCOAPODS: 1.8.4

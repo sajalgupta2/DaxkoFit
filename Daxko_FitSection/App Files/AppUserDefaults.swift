@@ -48,11 +48,9 @@ enum AppUserDefaults {
                                       function : String = #function) -> LayoutState {
         
         guard let value = UserDefaults.standard.object(forKey: key.rawValue) else {
-            
-            debugPrint("No Value Found in UserDefaults\nFile : \(file) \nFunction : \(function)")
+            save(value: fallBackValue.rawValue, forKey: .fitShopLayoutStyle)
             return fallBackValue
         }
-        
         
         return LayoutState(value: (value as AnyObject).intValue)
     }

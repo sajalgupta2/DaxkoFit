@@ -1,14 +1,14 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '11.0'
 
 target 'Daxko_FitSection' do
 # Comment the next line if you don't want to use dynamic frameworks
 use_frameworks!
-pod 'SDWebImage'
+pod 'SDWebImage', '~> 5.0'
 pod 'JJFloatingActionButton'
 pod 'MXParallaxHeader'
-pod 'SwiftyJSON'
-pod 'Alamofire'
+pod 'SwiftyJSON', '~> 4.0'
+pod 'Alamofire', '~> 5.0.0-rc.3'
 #pod 'DisplaySwitcher'
 pod 'GlidingCollection'
 pod 'YPImagePicker'

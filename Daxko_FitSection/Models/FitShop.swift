@@ -8,17 +8,30 @@
 
 import Foundation
 
-struct FitShopDetails {
-   
-    let shopName: String
-    let price: Int
-   
+
+struct FitShop: Decodable {
+    
+    let id: Int
+    let name: String
+    let price: String
+    let imageUrl: String
+    let description: String
+    let productType: String
+    
     var formattedPrice: String {
         return "$ \(price)"
     }
-    
-    
+   
+    enum CodingKeys :String, CodingKey {
+        case id = "id"
+        case name = "name"
+        case price = "price"
+        case imageUrl = "image_url"
+        case description = "description"
+        case productType = "product_type"
+    }
 }
+ 
 
 
     

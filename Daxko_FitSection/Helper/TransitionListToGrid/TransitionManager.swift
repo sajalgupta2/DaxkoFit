@@ -34,7 +34,7 @@ open class TransitionManager {
                 self.collectionView.reloadData()
                 UIApplication.shared.endIgnoringInteractionEvents()
             }
-        } as! TransitionLayout
+            } as? TransitionLayout
         transitionLayout.layoutState = layoutState
         createUpdaterAndStart()
     }
@@ -46,7 +46,7 @@ fileprivate extension TransitionManager {
     func createUpdaterAndStart() {
         startTime = CACurrentMediaTime()
         updater = CADisplayLink(target: self, selector: #selector(updateTransitionProgress))
-        updater.frameInterval = 1
+      //  updater.frameInterval = 1
 //        updater.preferredFramesPerSecond = 1
         updater.add(to: RunLoop.current, forMode: RunLoop.Mode.common)
     }
