@@ -13,6 +13,9 @@ let fitProductDetailsVC = "FitProductDetailsVC"
 
 class FitProductDetailsVC: UIViewController, MXParallaxHeaderDelegate {
 
+//    @IBOutlet weak var cartBtn: UIButton!
+//    @IBOutlet weak var backBtn: UIButton!
+//    @IBOutlet weak var customNavView: UIView!
     @IBOutlet weak var headerImageView: UIImageView!
     @IBOutlet weak var tableView : UITableView!
     @IBOutlet var headerView: UIView!
@@ -28,6 +31,17 @@ class FitProductDetailsVC: UIViewController, MXParallaxHeaderDelegate {
         setupHeaderView()
     }
     
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        
+//        navigationController?.navigationBar.isHidden = true
+//    }
+//    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        navigationController?.navigationBar.isHidden = false
+//    }
+   
     @IBAction func cartBarButtonAction(_ sender: UIBarButtonItem) {
        let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: myCartVC) as? MyCartVC
        self.navigationController?.pushViewController(vc!, animated: true)
@@ -43,6 +57,15 @@ class FitProductDetailsVC: UIViewController, MXParallaxHeaderDelegate {
           self.navigationController?.pushViewController(vc!, animated: true)
     }
        
+    
+    @IBAction func backBtnTapped(_ sender: UIButton) {
+        
+        navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func cartBtnTapped(_ sender: UIButton) {
+        
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
