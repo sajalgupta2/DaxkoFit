@@ -13,9 +13,14 @@ let fitProductDetailsVC = "FitProductDetailsVC"
 
 class FitProductDetailsVC: UIViewController, MXParallaxHeaderDelegate {
 
+    @IBOutlet weak var headerImageView: UIImageView!
     @IBOutlet weak var tableView : UITableView!
     @IBOutlet var headerView: UIView!
     @IBOutlet weak var productNameLabel: UILabel!
+    @IBOutlet weak var headerPriceLabel: UILabel!
+    
+    
+    var fitShop: FitShop = FitShop()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +56,9 @@ class FitProductDetailsVC: UIViewController, MXParallaxHeaderDelegate {
         tableView.parallaxHeader.height = 350
         tableView.parallaxHeader.mode = .fill
         tableView.parallaxHeader.delegate = self
+        productNameLabel.text = fitShop.name
+        headerPriceLabel.text = fitShop.price
+        headerImageView.sd_setImage(with: URL(string: fitShop.imageUrl), placeholderImage: nil)
     }
 }
 
@@ -62,6 +70,7 @@ extension FitProductDetailsVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FitShopTableViewCell", for: indexPath) as! FitShopTableViewCell
+        cell.productDetailsLabel.text = fitShop.description
         return cell
     }
 }

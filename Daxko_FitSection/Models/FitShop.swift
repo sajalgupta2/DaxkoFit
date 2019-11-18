@@ -30,6 +30,16 @@ struct FitShop: Decodable {
         case description = "description"
         case productType = "product_type"
     }
+    
+    init() {
+        self.id = 1
+        self.name = ""
+        self.price = "24"
+        self.imageUrl = ""
+        self.description = ""
+        self.productType = ""
+        
+    }
 }
  
 

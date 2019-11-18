@@ -17,29 +17,31 @@ class ShopCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var priceLabel: UILabel!
     
     var layoutState: LayoutState?
-    var layoutSubvis = 0
-    var drw = 0
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         
         shopImageView.backgroundColor = UIColor.gray
         setgradient()
-         /////contentView.setCorner(cornerRadius: 5, clip: true)
+        
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        layoutSubvis += 1
-     // print("layoutSubviews  ", layoutSubvis)
+      
+    
+        bgView.drawShadow(shadowColor: UIColor.red, offset: CGSize.zero, radius: 4)
         bgView.setCorner(cornerRadius: 5, clip: true)
-        bgView.drawShadow(offset: CGSize(width: 1, height: 2), radius: 3)
+       
     }
     
     override func draw(_ rect: CGRect) {
         super.draw(rect)
-        drw += 1
+      
         //image height = 114
          //image weight
+        
+        
 //        if let layoutState = layoutState, layoutState == .list {
 //            UIView.animate(withDuration: 0.3) {
 //                self.shopImageView.transform = CGAffineTransform(scaleX: 0.7, y: 1)
@@ -62,7 +64,6 @@ class ShopCollectionViewCell: UICollectionViewCell {
             
        // }
         
-//        print("draw  ", drw)
     }
     
     private func setgradient() {

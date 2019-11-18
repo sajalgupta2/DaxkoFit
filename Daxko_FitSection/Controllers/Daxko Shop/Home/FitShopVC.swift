@@ -246,8 +246,9 @@ extension FitShopVC: UICollectionViewDataSource, UICollectionViewDelegate,  UICo
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         
-        let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: fitProductDetailsVC) as? FitProductDetailsVC
-        self.navigationController?.pushViewController(vc!, animated: true)
+        let vc = UIStoryboard.init(name: fitStroryBoardName, bundle: Bundle.main).instantiateViewController(withIdentifier: fitProductDetailsVC) as! FitProductDetailsVC
+        vc.fitShop = self.fitShopDetails[indexPath.item]
+        self.navigationController?.pushViewController(vc, animated: true)
         
     }
     
